@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMPOSDemo", "XamarinMPOSDemo\XamarinMPOSDemo.csproj", "{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPOSBindings", "MPOSBindings\MPOSBindings.csproj", "{960A52C8-807C-4EAE-A351-54BAE730F45F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{960A52C8-807C-4EAE-A351-54BAE730F45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960A52C8-807C-4EAE-A351-54BAE730F45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960A52C8-807C-4EAE-A351-54BAE730F45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960A52C8-807C-4EAE-A351-54BAE730F45F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = XamarinMPOSDemo\XamarinMPOSDemo.csproj
+	EndGlobalSection
+EndGlobal

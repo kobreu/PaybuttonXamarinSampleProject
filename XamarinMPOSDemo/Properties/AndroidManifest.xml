@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="XamarinMPOSDemo.XamarinMPOSDemo">
+	<uses-sdk android:minSdkVersion="17" android:targetSdkVersion="19" />
+	<application android:label="XamarinMPOSDemo"></application>
+	<uses-permission android:name="android.permission.BLUETOOTH" />
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+	<uses-permission android:name="android.permission.INTERNET" />
+
+	<application>
+	 <service
+            android:name="io.mpos.comlinks.bluetooth.background.BluetoothConnectionService"
+            android:enabled="true"
+            android:label="Bluetooth Connection Service" />
+
+     </application>
+</manifest>

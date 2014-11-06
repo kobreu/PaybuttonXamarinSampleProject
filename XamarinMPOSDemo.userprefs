@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.048331e9d8cea8bf" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinMPOSDemo\MainActivity.cs">
+    <Files>
+      <File FileName="XamarinMPOSDemo\MainActivity.cs" Line="4" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.XamarinMPOSDemo MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>
