@@ -12,7 +12,7 @@
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <AssemblyName>MPOSBindings</AssemblyName>
-    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -46,63 +46,26 @@
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
+    <None Include="Jars\mpos.android.comlinks.bluetooth-2.4.5.aar" />
+    <None Include="Jars\mpos.android.accessories.miura-2.4.5.aar" />
   </ItemGroup>
   <ItemGroup>
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Novell\Xamarin.Android.Bindings.targets" />
-  <ItemGroup>
-    <EmbeddedJar Include="Jars\mpos.android.core.jar" />
-  </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\jackson-core-2.3.0.jar" />
     <EmbeddedReferenceJar Include="Jars\jackson-annotations-2.3.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\com.mcxiaoke.volley-1.0.2.jar" />
     <EmbeddedReferenceJar Include="Jars\jackson-databind-2.3.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\mpos.android.accessories.miura.jar" />
-    <EmbeddedReferenceJar Include="Jars\mpos.android.comlinks.bluetooth.jar" />
     <EmbeddedReferenceJar Include="Jars\otto-1.3.4.jar" />
+    <EmbeddedReferenceJar Include="Jars\com.mcxiaoke.volley-1.0.19.jar" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
   </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
-    <AndroidAsset Include="Assets\generic\currencies.json" />
-    <AndroidAsset Include="Assets\generic\schemes.json" />
-    <AndroidAsset Include="Assets\trust_root.bks" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\prompts-20x4-de_DE.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\prompts-20x4-en_US.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\prompts-20x4-es_ES.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\prompts-20x4-fr_FR.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\prompts-20x4-it_IT.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\reasons-20x4-de_DE.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\reasons-20x4-en_US.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\reasons-20x4-es_ES.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\reasons-20x4-fr_FR.json" />
-    <AndroidAsset Include="Assets\i18n\displays\20x4\reasons-20x4-it_IT.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\prompts-40x2-de_DE.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\prompts-40x2-de_DE.json.orig" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\prompts-40x2-en_US.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\prompts-40x2-es_ES.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\prompts-40x2-fr_FR.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\prompts-40x2-it_IT.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\reasons-40x2-de_DE.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\reasons-40x2-en_US.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\reasons-40x2-es_ES.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\reasons-40x2-fr_FR.json" />
-    <AndroidAsset Include="Assets\i18n\displays\40x2\reasons-40x2-it_IT.json" />
-    <AndroidAsset Include="Assets\i18n\errors\40x1\errors-40x1-de_DE.json" />
-    <AndroidAsset Include="Assets\i18n\errors\40x1\errors-40x1-en_US.json" />
-    <AndroidAsset Include="Assets\i18n\errors\40x1\errors-40x1-es_ES.json" />
-    <AndroidAsset Include="Assets\i18n\errors\40x1\errors-40x1-fr_FR.json" />
-    <AndroidAsset Include="Assets\i18n\errors\40x1\errors-40x1-it_IT.json" />
-    <AndroidAsset Include="Assets\i18n\receipts\receipt-de_DE.json" />
-    <AndroidAsset Include="Assets\i18n\receipts\receipt-en_US.json" />
-    <AndroidAsset Include="Assets\i18n\receipts\receipt-es_ES.json" />
-    <AndroidAsset Include="Assets\i18n\receipts\receipt-fr_FR.json" />
-    <AndroidAsset Include="Assets\i18n\receipts\receipt-it_IT.json" />
-    <AndroidAsset Include="Assets\checksums.json" />
+    <LibraryProjectZip Include="Jars\mpos.android.core-2.4.5.aar" />
   </ItemGroup>
 </Project>

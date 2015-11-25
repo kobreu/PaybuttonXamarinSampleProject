@@ -13,8 +13,6 @@ namespace XamarinMPOSDemo
 	[Activity (Label = "XamarinMPOSDemo", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
-		int count = 1;
-
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -36,10 +34,10 @@ namespace XamarinMPOSDemo
 		{
 			MposExtended.SetLogLevel (2); //TRACE
 
-			var provider = Mpos.CreateTransactionProvider (this, IO.Mpos.Provider.ProviderMode.Test, "", "");
+			var provider = Mpos.CreateTransactionProvider (this, IO.Mpos.Provider.ProviderMode.Test, "6ef3adee-3bce-48b7-b3c1-3185c14d67b6", "E1JewPljP1BjDwCY9yPO3XtNMa3NjHUZ");
 			var template = provider.CreateChargeTransactionTemplate (Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur, "subject", "identifier");
 			var listener = new MyPaymentProcessListener (FindViewById<TextView> (Resource.Id.textView1));
-			provider.StartPayment (template, IO.Mpos.Accessories.AccessoryFamily.MiuraMpi, listener);
+			provider.StartTransaction (template, IO.Mpos.Accessories.AccessoryFamily.MiuraMpi, listener);
 
 
 		}

@@ -1,8 +1,17 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.048331e9d8cea8bf" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinMPOSDemo\MainActivity.cs">
+﻿<Properties StartupItem="XamarinMPOSDemo/XamarinMPOSDemo.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.42039327cc3ab100" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinMPOSDemo/MainActivity.cs">
     <Files>
-      <File FileName="XamarinMPOSDemo\MainActivity.cs" Line="4" Column="4" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="9" Column="7" />
+      <File FileName="XamarinMPOSDemo/MyPaymentProcessListener.cs" Line="12" Column="20" />
+      <File FileName="MPOSBindings/Transforms/EnumFields.xml" Line="1" Column="1" />
+      <File FileName="MPOSBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="13" Column="72" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/6.0.0-34/lib/xbuild/Xamarin/Android/Xamarin.Android.Bindings.targets" Line="1" Column="1" />
+      <File FileName="MPOSBindings/Jars/AboutJars.txt" Line="1" Column="1" />
+      <File FileName="MPOSBindings/Properties/AssemblyInfo.cs" Line="1" Column="1" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Mpos.cs" Line="1" Column="1" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.ITransactionProvider.cs" Line="391" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
