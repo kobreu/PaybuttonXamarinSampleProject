@@ -14,7 +14,7 @@
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <AndroidResgenClass>Resource</AndroidResgenClass>
     <AssemblyName>XamarinMPOSDemo</AssemblyName>
-    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -42,6 +42,15 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Mono.Android" />
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.CardView">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.CardView.22.2.0.0\lib\MonoAndroid403\Xamarin.Android.Support.v7.CardView.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MainActivity.cs" />
@@ -52,20 +61,39 @@
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
     <AndroidResource Include="Resources\values\Strings.xml" />
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
-  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\MPOSBindings\MPOSBindings.csproj">
+    <ProjectReference Include="..\MPOSBindings\CoreBindings.csproj">
       <Project>{960A52C8-807C-4EAE-A351-54BAE730F45F}</Project>
-      <Name>MPOSBindings</Name>
+      <Name>CoreBindings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BluetoothBindings\BluetoothBindings.csproj">
+      <Project>{79F8968A-DFA6-4C81-9074-DD2A7A609770}</Project>
+      <Name>BluetoothBindings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MiuraBindings\MiuraBindings.csproj">
+      <Project>{87E63773-3D2B-43B8-A8D0-697AF20B9BE8}</Project>
+      <Name>MiuraBindings</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MPOSUiBindings\MPOSUiBindings.csproj">
+      <Project>{FC490E37-41EE-4253-885F-DF1B01605201}</Project>
+      <Name>MPOSUiBindings</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <ItemGroup>
+    <XamarinComponentReference Include="xamandroidsupportv7cardview">
+      <Version>22.2.0.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
   </ItemGroup>
 </Project>

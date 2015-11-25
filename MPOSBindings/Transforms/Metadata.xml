@@ -9,8 +9,6 @@
   <attr path="/api/package[@name='io.mpos.shared.processors.payworks.services.response.dto']" name="managedName">MyRenamedPackage</attr>
   <remove-node path="/api/package[@name='io.mpos.shared.processors.payworks.services.response.dto']" />
 
-  <remove-node path="/api/package[@name='io.mpos.accessories.miura.messages.response']" />
-  <remove-node path="/api/package[@name='io.mpos.accessories.miura.tags']" />
 
   <remove-node path="/api/package[@name='io.mpos.accessories.payment.listener']" />
   <remove-node path="/api/package[@name='io.mpos.shared.accessories.modules.listener']" />

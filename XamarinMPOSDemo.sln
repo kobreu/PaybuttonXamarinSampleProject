@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinMPOSDemo", "XamarinMPOSDemo\XamarinMPOSDemo.csproj", "{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPOSBindings", "MPOSBindings\MPOSBindings.csproj", "{960A52C8-807C-4EAE-A351-54BAE730F45F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreBindings", "MPOSBindings\CoreBindings.csproj", "{960A52C8-807C-4EAE-A351-54BAE730F45F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BluetoothBindings", "BluetoothBindings\BluetoothBindings.csproj", "{79F8968A-DFA6-4C81-9074-DD2A7A609770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiuraBindings", "MiuraBindings\MiuraBindings.csproj", "{87E63773-3D2B-43B8-A8D0-697AF20B9BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPOSUiBindings", "MPOSUiBindings\MPOSUiBindings.csproj", "{FC490E37-41EE-4253-885F-DF1B01605201}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +17,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79F8968A-DFA6-4C81-9074-DD2A7A609770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F8968A-DFA6-4C81-9074-DD2A7A609770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F8968A-DFA6-4C81-9074-DD2A7A609770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F8968A-DFA6-4C81-9074-DD2A7A609770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E63773-3D2B-43B8-A8D0-697AF20B9BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E63773-3D2B-43B8-A8D0-697AF20B9BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E63773-3D2B-43B8-A8D0-697AF20B9BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E63773-3D2B-43B8-A8D0-697AF20B9BE8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{960A52C8-807C-4EAE-A351-54BAE730F45F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{960A52C8-807C-4EAE-A351-54BAE730F45F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{960A52C8-807C-4EAE-A351-54BAE730F45F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -19,6 +33,10 @@ Global
 		{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC490E37-41EE-4253-885F-DF1B01605201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC490E37-41EE-4253-885F-DF1B01605201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC490E37-41EE-4253-885F-DF1B01605201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC490E37-41EE-4253-885F-DF1B01605201}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = XamarinMPOSDemo\XamarinMPOSDemo.csproj
