@@ -1,18 +1,45 @@
 ﻿<Properties StartupItem="XamarinMPOSDemo/XamarinMPOSDemo.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.42039327cc3ab100" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinMPOSDemo/MainActivity.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_21" />
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="9" Column="7" />
-      <File FileName="XamarinMPOSDemo/MyPaymentProcessListener.cs" Line="12" Column="20" />
-      <File FileName="MPOSBindings/Transforms/EnumFields.xml" Line="1" Column="1" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="43" Column="6" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="18" Column="140" />
+      <File FileName="MPOSUiBindings/packages.config" Line="1" Column="1" />
+      <File FileName="MPOSUiBindings/Transforms/Metadata.xml" Line="13" Column="188" />
+      <File FileName="MPOSUiBindings/Additions/AboutAdditions.txt" Line="1" Column="1" />
       <File FileName="MPOSBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
-      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="13" Column="72" />
-      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/6.0.0-34/lib/xbuild/Xamarin/Android/Xamarin.Android.Bindings.targets" Line="1" Column="1" />
-      <File FileName="MPOSBindings/Jars/AboutJars.txt" Line="1" Column="1" />
-      <File FileName="MPOSBindings/Properties/AssemblyInfo.cs" Line="1" Column="1" />
-      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Mpos.cs" Line="1" Column="1" />
-      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.ITransactionProvider.cs" Line="391" Column="1" />
+      <File FileName="MPOSBindings/Transforms/EnumFields.xml" Line="1" Column="1" />
+      <File FileName="XamarinMPOSDemo/MyPaymentProcessListener.cs" Line="12" Column="20" />
+      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Paybutton.Controller.StatefulTransactionProviderProxy.cs" Line="13" Column="53" />
+      <File FileName="MPOSUiBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="XamarinMPOSDemo" expanded="True">
+            <Node name="CoreBindings" expanded="True">
+              <Node name="Transforms" expanded="True" />
+            </Node>
+            <Node name="MPOSUiBindings" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Packages" expanded="True" />
+              <Node name="Additions" expanded="True" />
+              <Node name="Jars" expanded="True" />
+              <Node name="Transforms" expanded="True" />
+            </Node>
+            <Node name="XamarinMPOSDemo" expanded="True">
+              <Node name="References" expanded="True" />
+              <Node name="ComponentReferenceFolder" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Resources" expanded="True">
+                <Node name="layout" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

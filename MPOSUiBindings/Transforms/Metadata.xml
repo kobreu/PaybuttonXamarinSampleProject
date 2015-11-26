@@ -6,4 +6,11 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+
+    <attr path="/api/package[@name='io.mpos.ui.shared']/class[@name='MposUi']" name="visibility">public</attr>
+
+      <attr path="/api/package[@name='io.mpos.ui.paybutton.controller']/class[@name='StatefulTransactionProviderProxy']/method[@name='onCompleted']" name="managedName">onCompleted</attr>
+      <attr path="/api/package[@name='io.mpos.ui.paybutton.controller']/class[@name='StatefulTransactionProviderProxy']/method[@name='onStatusChanged']" name="managedName">onStatusChanged</attr>
+
+
 </metadata>
