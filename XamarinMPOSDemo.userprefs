@@ -1,13 +1,18 @@
 ﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MiuraBindings/Transforms/Metadata.xml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSBindings/Transforms/Metadata.xml">
     <Files>
-      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="1" Column="1" />
-      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="19" Column="3" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="48" Column="27" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="47" Column="2" />
       <File FileName="MPOSBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
       <File FileName="MPOSBindings/Transforms/EnumFields.xml" Line="1" Column="1" />
-      <File FileName="XamarinMPOSDemo/MyPaymentProcessListener.cs" Line="1" Column="1" />
-      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IGenericProcessListener.cs" Line="1" Column="1" />
-      <File FileName="MiuraBindings/Transforms/Metadata.xml" Line="1" Column="1" />
+      <File FileName="XamarinMPOSDemo/MyPaymentProcessListener.cs" Line="10" Column="88" />
+      <File FileName="MiuraBindings/Transforms/Metadata.xml" Line="14" Column="1" />
+      <File FileName="BluetoothBindings/Transforms/Metadata.xml" Line="1" Column="1" />
+      <File FileName="BluetoothBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
+      <File FileName="BluetoothBindings/Transforms/EnumFields.xml" Line="14" Column="9" />
+      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs" Line="465" Column="1" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IAccessoryUpdateListener.cs" Line="1" Column="1" />
+      <File FileName="MPOSUiBindings/Transforms/Metadata.xml" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

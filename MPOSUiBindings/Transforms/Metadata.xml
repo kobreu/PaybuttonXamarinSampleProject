@@ -13,4 +13,7 @@
       <attr path="/api/package[@name='io.mpos.ui.paybutton.controller']/class[@name='StatefulTransactionProviderProxy']/method[@name='onStatusChanged']" name="managedName">onStatusChanged</attr>
 
 
+    <remove-node path="/api/package[@name='io.mpos.ui.shared']/class[@name='MposUi']/method[@name='logout']" />
+
+	
 </metadata>

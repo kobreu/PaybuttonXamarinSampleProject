@@ -13,6 +13,49 @@
   <remove-node path="/api/package[@name='io.mpos.accessories.payment.listener']" />
   <remove-node path="/api/package[@name='io.mpos.shared.accessories.modules.listener']" />
   <remove-node path="/api/package[@name='io.mpos.shared.transactions']" />
+  <remove-node path="/api/package[@name='io.mpos.accessories.components.interaction']" />
+    <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicTransactionProcessListener']" />
+    <remove-node path="/api/package[@name='io.mpos.shared.provider']/class[@name='AbstractProvider']" />
+
+
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onStatusChanged']" name="argsType">TransactionProcessListenerOnStatusChangedArgs</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onCompleted']" name="argsType">TransactionProcessListenerOnCompletedArgs</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onStatusChanged']/parameter[1]" name="type">io.mpos.transactionprovider.TransactionProcess</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onStatusChanged']/parameter[2]" name="type">io.mpos.transactions.Transaction</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onStatusChanged']/parameter[3]" name="type">io.mpos.transactionprovider.TransactionProcessDetails</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onCompleted']/parameter[1]" name="type">io.mpos.transactionprovider.TransactionProcess</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onCompleted']/parameter[2]" name="type">io.mpos.transactions.Transaction</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onCompleted']/parameter[3]" name="type">io.mpos.transactionprovider.TransactionProcessDetails</attr>
+
+
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicTransactionProcessListener']/method[@name='onCompleted']" name="argsType">BasicTransactionProcessListenerOnCompletedArgs</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicTransactionProcessListener']/method[@name='onStatusChanged']/parameter[1]" name="type">io.mpos.transactionprovider.TransactionProcess</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicTransactionProcessListener']/method[@name='onStatusChanged']/parameter[2]" name="type">io.mpos.transactions.Transaction</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicTransactionProcessListener']/method[@name='onStatusChanged']/parameter[3]" name="type">io.mpos.transactionprovider.TransactionProcessDetails</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicTransactionProcessListener']/method[@name='onCompleted']/parameter[1]" name="type">io.mpos.transactionprovider.TransactionProcess</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicTransactionProcessListener']/method[@name='onCompleted']/parameter[2]" name="type">io.mpos.transactions.Transaction</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicTransactionProcessListener']/method[@name='onCompleted']/parameter[3]" name="type">io.mpos.transactionprovider.TransactionProcessDetails</attr>
+
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessWithRegistrationListener']/method[@name='onStatusChanged']" name="argsType">TransactionProcessWithRegistrationListenerOnStatusChangedArgs</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessWithRegistrationListener']/method[@name='onCompleted']" name="argsType">TransactionProcessWithRegistrationListenerOnCompletedArgs</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessWithRegistrationListener']/method[@name='onStatusChanged']/parameter[1]" name="type">io.mpos.transactionprovider.TransactionProcess</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessWithRegistrationListener']/method[@name='onStatusChanged']/parameter[2]" name="type">io.mpos.transactions.Transaction</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessWithRegistrationListener']/method[@name='onStatusChanged']/parameter[3]" name="type">io.mpos.transactionprovider.TransactionProcessDetails</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessWithRegistrationListener']/method[@name='onCompleted']/parameter[1]" name="type">io.mpos.transactionprovider.TransactionProcess</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessWithRegistrationListener']/method[@name='onCompleted']/parameter[2]" name="type">io.mpos.transactions.Transaction</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessWithRegistrationListener']/method[@name='onCompleted']/parameter[3]" name="type">io.mpos.transactionprovider.TransactionProcessDetails</attr>
+
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryConnectListener']/method[@name='onStatusChanged']" name="argsType">AccessoryConnectListenerOnStatusChangedArgs</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryConnectListener']/method[@name='onCompleted']" name="argsType">AccessoryConnectListenerOnCompletedArgs</attr>
+
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryConnectListener2']/method[@name='onStatusChanged']" name="argsType">AccessoryConnectListener2OnStatusChangedArgs</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryConnectListener2']/method[@name='onCompleted']" name="argsType">AccessoryConnectListener2OnCompletedArgs</attr>
+
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryUpdateListener']/method[@name='onStatusChanged']" name="argsType">AccessoryUpdateListenerOnStatusChangedArgs</attr>
+	<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryUpdateListener']/method[@name='onCompleted']" name="argsType">AccessoryUpdateListenerOnCompletedArgs</attr>
+	
+	
+  <remove-node path="/api/package[@name='com.fasterxml.jackson.databind.util.arraybuilders']" />
 
   <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onCompleted']" name="managedName">onCompleted</attr>
   <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProcessListener']/method[@name='onStatusChanged']" name="managedName">onStatusChanged</attr>

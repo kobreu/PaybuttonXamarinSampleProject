@@ -8,6 +8,7 @@ using Android.Widget;
 using Android.OS;
 using IO.Mpos;
 using IO.Mpos.UI.Shared;
+using IO.Mpos.Accessories.Parameters;
 
 namespace XamarinMPOSDemo
 {
@@ -45,14 +46,15 @@ namespace XamarinMPOSDemo
 			// Implementation with UI
 
 			MposUi ui = MposUi.Initialize (this, IO.Mpos.Provider.ProviderMode.Test, "6ef3adee-3bce-48b7-b3c1-3185c14d67b6", "E1JewPljP1BjDwCY9yPO3XtNMa3NjHUZ");
-			ui.Configuration.SetAccessoryFamily (IO.Mpos.Accessories.AccessoryFamily.MiuraMpi);
+
+			AccessoryParameters accessoryParameters = new AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
+			var transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder().Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur).Subject("subject").CustomIdentifier("identifier").Build();
+
+
+			ui.Configuration.SetTerminalParameters(accessoryParameters);
 			ui.Configuration.SetSummaryFeatures(Java.Util.EnumSet.Of(IO.Mpos.UI.Shared.Model.MposUiConfiguration.SummaryFeature.SendReceiptViaEmail));
 
-			Intent intent = ui.CreateChargeTransactionIntent (
-				                Java.Math.BigDecimal.ValueOf (5.00),
-				                IO.Mpos.Transactions.Currency.Eur,
-				                "Bouquet of Flowers",
-				                "yourReferenceForTheTransaction");
+			Intent intent = ui.CreateTransactionIntent(transactionParameters);
 			StartActivityForResult (intent, MposUi.RequestCodePayment);
 		}
 			
