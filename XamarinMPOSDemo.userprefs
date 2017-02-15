@@ -1,6 +1,5 @@
-﻿<Properties StartupItem="XamarinMPOSDemo/XamarinMPOSDemo.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus_5_API_21" />
-  <MonoDevelop.Ide.Workbench>
+﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinMPOSDemo/MainActivity.cs">
     <Files>
       <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="43" Column="6" />
       <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="18" Column="140" />
@@ -10,40 +9,14 @@
       <File FileName="MPOSBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
       <File FileName="MPOSBindings/Transforms/EnumFields.xml" Line="1" Column="1" />
       <File FileName="XamarinMPOSDemo/MyPaymentProcessListener.cs" Line="12" Column="20" />
-      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Paybutton.Controller.StatefulTransactionProviderProxy.cs" Line="13" Column="53" />
       <File FileName="MPOSUiBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="XamarinMPOSDemo" expanded="True">
-            <Node name="CoreBindings" expanded="True">
-              <Node name="Transforms" expanded="True" />
-            </Node>
-            <Node name="MPOSUiBindings" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="ComponentReferenceFolder" expanded="True" />
-              <Node name="Packages" expanded="True" />
-              <Node name="Additions" expanded="True" />
-              <Node name="Jars" expanded="True" />
-              <Node name="Transforms" expanded="True" />
-            </Node>
-            <Node name="XamarinMPOSDemo" expanded="True">
-              <Node name="References" expanded="True" />
-              <Node name="ComponentReferenceFolder" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="Resources" expanded="True">
-                <Node name="layout" expanded="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamarinMPOSDemo MonoForAntroid.PreferredDevice="Nexus 4" />
+  <MonoDevelop.Ide.ItemProperties.XamarinMPOSDemo PreferredExecutionTarget="Android.091b04a4" MonoForAntroid.PreferredDevice="Nexus 4" />
+  <MultiItemStartupConfigurations />
 </Properties>
