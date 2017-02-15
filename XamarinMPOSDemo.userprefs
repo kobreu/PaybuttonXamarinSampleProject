@@ -1,15 +1,13 @@
 ﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinMPOSDemo/MainActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MiuraBindings/Transforms/Metadata.xml">
     <Files>
-      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="43" Column="6" />
-      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="18" Column="140" />
-      <File FileName="MPOSUiBindings/packages.config" Line="1" Column="1" />
-      <File FileName="MPOSUiBindings/Transforms/Metadata.xml" Line="13" Column="188" />
-      <File FileName="MPOSUiBindings/Additions/AboutAdditions.txt" Line="1" Column="1" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="19" Column="3" />
       <File FileName="MPOSBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
       <File FileName="MPOSBindings/Transforms/EnumFields.xml" Line="1" Column="1" />
-      <File FileName="XamarinMPOSDemo/MyPaymentProcessListener.cs" Line="12" Column="20" />
-      <File FileName="MPOSUiBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
+      <File FileName="XamarinMPOSDemo/MyPaymentProcessListener.cs" Line="1" Column="1" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IGenericProcessListener.cs" Line="1" Column="1" />
+      <File FileName="MiuraBindings/Transforms/Metadata.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

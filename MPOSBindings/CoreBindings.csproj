@@ -4,7 +4,7 @@
     <JavaDocPaths>javadoc</JavaDocPaths>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectTypeGuids>{10368E6C-D01B-4462-8E8B-01FC667A7035};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <ProjectGuid>{960A52C8-807C-4EAE-A351-54BAE730F45F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>MPOSBindings</RootNamespace>
@@ -13,6 +13,7 @@
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <AssemblyName>MPOSBindings</AssemblyName>
     <TargetFrameworkVersion>v6.0</TargetFrameworkVersion>
+    <AndroidTlsProvider></AndroidTlsProvider>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -65,6 +66,5 @@
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <ItemGroup>
     <LibraryProjectZip Include="Jars\mpos.android.core-2.4.5.aar" />
-    <LibraryProjectZip Include="Jars\mpos.android.accessories.miura-2.4.5.aar" />
   </ItemGroup>
 </Project>
