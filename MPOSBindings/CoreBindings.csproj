@@ -57,14 +57,17 @@
     <Folder Include="Assets\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\mpos.android.core-2.18.0.jar" />
+    <LibraryProjectZip Include="Jars\mpos.android.core-2.18.0.aar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedReferenceJar Include="Jars\bolts-android-1.2.1.jar" />
-    <EmbeddedReferenceJar Include="Jars\jackson-databind-2.4.4.jar" />
-    <EmbeddedReferenceJar Include="Jars\okhttp-2.7.4.jar" />
     <EmbeddedReferenceJar Include="Jars\okhttp-ws-2.7.4.jar" />
+    <EmbeddedReferenceJar Include="Jars\okhttp-2.7.4.jar" />
+    <EmbeddedReferenceJar Include="Jars\bolts-android-1.2.1.jar" />
     <EmbeddedReferenceJar Include="Jars\otto-1.3.5.jar" />
+    <EmbeddedReferenceJar Include="Jars\jackson-databind-2.4.4.jar" />
+    <EmbeddedReferenceJar Include="Jars\jackson-core-2.4.4.jar" />
+    <EmbeddedReferenceJar Include="Jars\jackson-annotations-2.4.4.jar" />
+    <EmbeddedReferenceJar Include="Jars\okio-1.6.0.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

@@ -19,7 +19,7 @@ namespace XamarinMPOSDemo
 		{
 			base.OnCreate (bundle);
 
-			// Set our view from the "main" layout resource
+			// Set our view from the "main" layout resourc		
 			SetContentView (Resource.Layout.Main);
 
 			// Get our button from the layout resource,
@@ -45,11 +45,10 @@ namespace XamarinMPOSDemo
 
 			// Implementation with UI
 
-			MposUi ui = MposUi.Initialize (this, IO.Mpos.Provider.ProviderMode.Test, "6ef3adee-3bce-48b7-b3c1-3185c14d67b6", "E1JewPljP1BjDwCY9yPO3XtNMa3NjHUZ");
-
 			AccessoryParameters accessoryParameters = new AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
 			var transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder().Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur).Subject("subject").CustomIdentifier("identifier").Build();
 
+			MposUi ui = MposUi.Initialize (this, IO.Mpos.Provider.ProviderMode.Test, "6ef3adee-3bce-48b7-b3c1-3185c14d67b6", "E1JewPljP1BjDwCY9yPO3XtNMa3NjHUZ");
 
 			ui.Configuration.SetTerminalParameters(accessoryParameters);
 			ui.Configuration.SetSummaryFeatures(Java.Util.EnumSet.Of(IO.Mpos.UI.Shared.Model.MposUiConfiguration.SummaryFeature.SendReceiptViaEmail));
