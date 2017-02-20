@@ -14,6 +14,5 @@
 
 
     <remove-node path="/api/package[@name='io.mpos.ui.shared']/class[@name='MposUi']/method[@name='logout']" />
-
-	
+   	<remove-node path="/api/package[@name='io.mpos.ui.paybutton.controller']/class[@name='StatefulTransactionProviderProxy']" />
 </metadata>

@@ -1,10 +1,16 @@
 ﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.BaseTransactionProcessListener.cs">
     <Files>
-      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="45" Column="4" />
-      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="24" Column="6" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="39" Column="33" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="27" Column="62" />
       <File FileName="XamarinMPOSDemo/Properties/AndroidManifest.xml" Line="8" Column="42" />
-      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs" Line="473" Column="3" />
+      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs" Line="1" Column="1" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IGenericProcessListener.cs" Line="78" Column="1" />
+      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.View.AbstractBaseActivity.cs" Line="164" Column="30" />
+      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Paybutton.Controller.StatefulTransactionProviderProxy.cs" Line="817" Column="150" />
+      <File FileName="MPOSUiBindings/Transforms/Metadata.xml" Line="17" Column="125" />
+      <File FileName="XamarinMPOSDemo/obj/Debug/android/src/mono/io/mpos/transactionprovider/GenericProcessListenerImplementor.java" Line="4" Column="8" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.BaseTransactionProcessListener.cs" Line="9" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

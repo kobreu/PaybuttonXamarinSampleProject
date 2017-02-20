@@ -36,11 +36,12 @@ namespace XamarinMPOSDemo
 		{
 			// Implementation without UI
 
-			/*MposExtended.SetLogLevel (2); //TRACE
+			//var provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "bf12b302-13ff-46d3-b76a-f795b58a0738", "wptdjc5P1LcpDskmT0UzePF7DEGBNfBF");
+			//var transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder().Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur).Subject("subject").CustomIdentifier("identifier").Build();
+			//var accessoryParameters = new IO.Mpos.Accessories.Parameters.AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
+			//var listener = new MyPaymentProcessListener(FindViewById<TextView>(Resource.Id.textView1));
 
-			var provider = Mpos.CreateTransactionProvider (this, IO.Mpos.Provider.ProviderMode.Test, "", "");
-			var template = provider.CreateChargeTransactionTemplate (Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur, "subject", "identifier");
-			var listener = new MyPaymentProcessListener (FindViewById<TextView> (Resource.Id.textView1));
+			/*var listener = new MyPaymentProcessListener (FindViewById<TextView> (Resource.Id.textView1));
 			provider.StartTransaction (template, IO.Mpos.Accessories.AccessoryFamily.MiuraMpi, listener);*/
 
 			// Implementation with UI
