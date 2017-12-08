@@ -48,8 +48,8 @@
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
-    <LibraryProjectZip Include="Jars\couchbase-lite-android-1.4.0.aar" />
-    <LibraryProjectZip Include="Jars\couchbase-lite-android-forestdb-1.4.0.aar" />
+    <None Include="Jars\couchbase-lite-android-1.4.0.aar" />
+    <None Include="Jars\couchbase-lite-android-forestdb-1.4.0.aar" />
     <LibraryProjectZip Include="Jars\mpos.android.core-2.26.1.aar" />
   </ItemGroup>
   <ItemGroup>

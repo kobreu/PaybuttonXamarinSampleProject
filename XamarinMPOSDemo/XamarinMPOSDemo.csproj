@@ -100,25 +100,25 @@
     <AndroidResource Include="Resources\drawable\Icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MPOSBindings\CoreBindings.csproj">
-      <Project>{960A52C8-807C-4EAE-A351-54BAE730F45F}</Project>
-      <Name>CoreBindings</Name>
-    </ProjectReference>
+    <Folder Include="Assets\" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\BluetoothBindings\BluetoothBindings.csproj">
-      <Project>{79F8968A-DFA6-4C81-9074-DD2A7A609770}</Project>
+      <Project>{79f8968a-dfa6-4c81-9074-dd2a7a609770}</Project>
       <Name>BluetoothBindings</Name>
     </ProjectReference>
     <ProjectReference Include="..\MiuraBindings\MiuraBindings.csproj">
-      <Project>{87E63773-3D2B-43B8-A8D0-697AF20B9BE8}</Project>
+      <Project>{87e63773-3d2b-43b8-a8d0-697af20b9be8}</Project>
       <Name>MiuraBindings</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MPOSBindings\CoreBindings.csproj">
+      <Project>{960a52c8-807c-4eae-a351-54bae730f45f}</Project>
+      <Name>CoreBindings</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MPOSUiBindings\MPOSUiBindings.csproj">
-      <Project>{FC490E37-41EE-4253-885F-DF1B01605201}</Project>
+      <Project>{fc490e37-41ee-4253-885f-df1b01605201}</Project>
       <Name>MPOSUiBindings</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Assets\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
