@@ -26,6 +26,7 @@ namespace XamarinMPOSDemo
 		
 		public static void UpdateIdValues()
 		{
+			global::Couchbase.Lite.Android.Resource.String.library_name = global::XamarinMPOSDemo.Resource.String.library_name;
 		}
 		
 		public partial class Animation
@@ -2971,8 +2972,8 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0a0010
 			public const int abc_toolbar_collapse_description = 2131361808;
 			
-			// aapt resource value: 0x7f0a008e
-			public const int app_name = 2131361934;
+			// aapt resource value: 0x7f0a008f
+			public const int app_name = 2131361935;
 			
 			// aapt resource value: 0x7f0a0012
 			public const int common_google_play_services_enable_button = 2131361810;
@@ -3025,8 +3026,11 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0a0021
 			public const int common_signin_button_text_long = 2131361825;
 			
+			// aapt resource value: 0x7f0a008e
+			public const int hello = 2131361934;
+			
 			// aapt resource value: 0x7f0a008d
-			public const int hello = 2131361933;
+			public const int library_name = 2131361933;
 			
 			// aapt resource value: 0x7f0a0081
 			public const int mpu_fa_bank = 2131361921;
