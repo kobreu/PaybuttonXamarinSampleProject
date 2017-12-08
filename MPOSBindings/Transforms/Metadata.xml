@@ -18,6 +18,8 @@
 
     <remove-node path="/api/package[@name='io.mpos.shared.provider']/class[@name='AbstractProvider']" />
 
+	<remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicProcessListener']" />
+
 
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/class[@name='BaseTransactionProcessListener']" />
 	

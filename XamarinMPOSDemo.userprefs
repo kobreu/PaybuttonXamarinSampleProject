@@ -1,9 +1,10 @@
 ﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IBasicProcessListener.cs">
     <Files>
       <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="51" Column="13" />
       <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="27" Column="1" />
       <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs" Line="479" Column="1" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IBasicProcessListener.cs" Line="160" Column="28" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

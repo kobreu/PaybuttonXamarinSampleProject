@@ -2648,274 +2648,277 @@ namespace XamarinMPOSDemo
 			public const int MPUAborted = 2131361829;
 			
 			// aapt resource value: 0x7f0a0026
-			public const int MPUActions = 2131361830;
+			public const int MPUAccountVerification = 2131361830;
 			
 			// aapt resource value: 0x7f0a0027
-			public const int MPUAlipay = 2131361831;
+			public const int MPUActions = 2131361831;
 			
 			// aapt resource value: 0x7f0a0028
-			public const int MPUAmericanExpress = 2131361832;
+			public const int MPUAlipay = 2131361832;
 			
 			// aapt resource value: 0x7f0a0029
-			public const int MPUApproved = 2131361833;
+			public const int MPUAmericanExpress = 2131361833;
 			
 			// aapt resource value: 0x7f0a002a
-			public const int MPUBack = 2131361834;
+			public const int MPUApproved = 2131361834;
 			
 			// aapt resource value: 0x7f0a002b
-			public const int MPUBackButtonDisabled = 2131361835;
+			public const int MPUBack = 2131361835;
 			
 			// aapt resource value: 0x7f0a002c
-			public const int MPUCameraAccessRequiredMessage = 2131361836;
+			public const int MPUBackButtonDisabled = 2131361836;
 			
 			// aapt resource value: 0x7f0a002d
-			public const int MPUCameraAccessRequiredTitle = 2131361837;
+			public const int MPUCameraAccessRequiredMessage = 2131361837;
 			
 			// aapt resource value: 0x7f0a002e
-			public const int MPUCameraAccessRestrictedMessage = 2131361838;
+			public const int MPUCameraAccessRequiredTitle = 2131361838;
 			
 			// aapt resource value: 0x7f0a002f
-			public const int MPUCameraAccessRestrictedTitle = 2131361839;
+			public const int MPUCameraAccessRestrictedMessage = 2131361839;
 			
 			// aapt resource value: 0x7f0a0030
-			public const int MPUCapture = 2131361840;
+			public const int MPUCameraAccessRestrictedTitle = 2131361840;
 			
 			// aapt resource value: 0x7f0a0031
-			public const int MPUCapturePrompt = 2131361841;
+			public const int MPUCapture = 2131361841;
 			
 			// aapt resource value: 0x7f0a0032
-			public const int MPUCaptureTransaction = 2131361842;
+			public const int MPUCapturePrompt = 2131361842;
 			
 			// aapt resource value: 0x7f0a0033
-			public const int MPUCheckStatus = 2131361843;
+			public const int MPUCaptureTransaction = 2131361843;
 			
 			// aapt resource value: 0x7f0a0034
-			public const int MPUClear = 2131361844;
+			public const int MPUCheckStatus = 2131361844;
 			
 			// aapt resource value: 0x7f0a0035
-			public const int MPUClose = 2131361845;
+			public const int MPUClear = 2131361845;
 			
 			// aapt resource value: 0x7f0a0036
-			public const int MPUContinue = 2131361846;
+			public const int MPUClose = 2131361846;
 			
 			// aapt resource value: 0x7f0a0037
-			public const int MPUCouldNotSendReceipt = 2131361847;
+			public const int MPUContinue = 2131361847;
 			
 			// aapt resource value: 0x7f0a0038
-			public const int MPUCredit = 2131361848;
+			public const int MPUCouldNotSendReceipt = 2131361848;
 			
 			// aapt resource value: 0x7f0a0039
-			public const int MPUDebit = 2131361849;
+			public const int MPUCredit = 2131361849;
 			
 			// aapt resource value: 0x7f0a003a
-			public const int MPUDeclined = 2131361850;
+			public const int MPUDebit = 2131361850;
 			
 			// aapt resource value: 0x7f0a003b
-			public const int MPUDeviceDoesNotSupportFeature = 2131361851;
+			public const int MPUDeclined = 2131361851;
 			
 			// aapt resource value: 0x7f0a003c
-			public const int MPUDiners = 2131361852;
+			public const int MPUDeviceDoesNotSupportFeature = 2131361852;
 			
 			// aapt resource value: 0x7f0a003d
-			public const int MPUDiscover = 2131361853;
+			public const int MPUDiners = 2131361853;
 			
 			// aapt resource value: 0x7f0a003e
-			public const int MPUEmail = 2131361854;
+			public const int MPUDiscover = 2131361854;
 			
 			// aapt resource value: 0x7f0a003f
-			public const int MPUEmailAddress = 2131361855;
+			public const int MPUEmail = 2131361855;
 			
 			// aapt resource value: 0x7f0a0040
-			public const int MPUEnterEmailAddress = 2131361856;
+			public const int MPUEmailAddress = 2131361856;
 			
 			// aapt resource value: 0x7f0a0041
-			public const int MPUEnterValidEmailAddress = 2131361857;
+			public const int MPUEnterEmailAddress = 2131361857;
 			
 			// aapt resource value: 0x7f0a0042
-			public const int MPUError = 2131361858;
+			public const int MPUEnterValidEmailAddress = 2131361858;
 			
 			// aapt resource value: 0x7f0a0043
-			public const int MPUFetching = 2131361859;
+			public const int MPUError = 2131361859;
 			
 			// aapt resource value: 0x7f0a0044
-			public const int MPUForgot = 2131361860;
+			public const int MPUFetching = 2131361860;
 			
 			// aapt resource value: 0x7f0a0045
-			public const int MPUGhLink = 2131361861;
+			public const int MPUForgot = 2131361861;
 			
 			// aapt resource value: 0x7f0a0046
-			public const int MPUHelp = 2131361862;
+			public const int MPUGhLink = 2131361862;
 			
 			// aapt resource value: 0x7f0a0047
-			public const int MPUInconclusive = 2131361863;
+			public const int MPUHelp = 2131361863;
 			
 			// aapt resource value: 0x7f0a0048
-			public const int MPUInconclusiveErrorMessage = 2131361864;
+			public const int MPUInconclusive = 2131361864;
 			
 			// aapt resource value: 0x7f0a0049
-			public const int MPUInfo = 2131361865;
+			public const int MPUInconclusiveErrorMessage = 2131361865;
 			
 			// aapt resource value: 0x7f0a004a
-			public const int MPUInvalidEmailAddress = 2131361866;
+			public const int MPUInfo = 2131361866;
 			
 			// aapt resource value: 0x7f0a004b
-			public const int MPUJcb = 2131361867;
+			public const int MPUInvalidEmailAddress = 2131361867;
 			
 			// aapt resource value: 0x7f0a004c
-			public const int MPULoading = 2131361868;
+			public const int MPUJcb = 2131361868;
 			
 			// aapt resource value: 0x7f0a004d
-			public const int MPULoggedInAs = 2131361869;
+			public const int MPULoading = 2131361869;
 			
 			// aapt resource value: 0x7f0a004e
-			public const int MPULogin = 2131361870;
+			public const int MPULoggedInAs = 2131361870;
 			
 			// aapt resource value: 0x7f0a004f
-			public const int MPULogout = 2131361871;
+			public const int MPULogin = 2131361871;
 			
 			// aapt resource value: 0x7f0a0050
-			public const int MPUMaestro = 2131361872;
+			public const int MPULogout = 2131361872;
 			
 			// aapt resource value: 0x7f0a0051
-			public const int MPUMastercard = 2131361873;
+			public const int MPUMaestro = 2131361873;
 			
 			// aapt resource value: 0x7f0a0052
-			public const int MPUOK = 2131361874;
+			public const int MPUMastercard = 2131361874;
 			
 			// aapt resource value: 0x7f0a0053
-			public const int MPUPartiallyCaptured = 2131361875;
+			public const int MPUOK = 2131361875;
 			
 			// aapt resource value: 0x7f0a0054
-			public const int MPUPassword = 2131361876;
+			public const int MPUPartiallyCaptured = 2131361876;
 			
 			// aapt resource value: 0x7f0a0055
-			public const int MPUPasswordReset = 2131361877;
+			public const int MPUPassword = 2131361877;
 			
 			// aapt resource value: 0x7f0a0056
-			public const int MPUPaymentOption = 2131361878;
+			public const int MPUPasswordReset = 2131361878;
 			
 			// aapt resource value: 0x7f0a0057
-			public const int MPUPaymentOptionCard = 2131361879;
+			public const int MPUPaymentOption = 2131361879;
 			
 			// aapt resource value: 0x7f0a0058
-			public const int MPUPaymentSuccessful = 2131361880;
+			public const int MPUPaymentOptionCard = 2131361880;
 			
 			// aapt resource value: 0x7f0a0059
-			public const int MPUPleaseSelect = 2131361881;
+			public const int MPUPaymentSuccessful = 2131361881;
 			
 			// aapt resource value: 0x7f0a005a
-			public const int MPUPleaseTryAgain = 2131361882;
+			public const int MPUPleaseSelect = 2131361882;
 			
 			// aapt resource value: 0x7f0a005b
-			public const int MPUPreauthorized = 2131361883;
+			public const int MPUPleaseTryAgain = 2131361883;
 			
 			// aapt resource value: 0x7f0a005c
-			public const int MPUPrintReceipt = 2131361884;
+			public const int MPUPreauthorized = 2131361884;
 			
 			// aapt resource value: 0x7f0a005d
-			public const int MPUPrinting = 2131361885;
+			public const int MPUPrintReceipt = 2131361885;
 			
 			// aapt resource value: 0x7f0a005e
-			public const int MPUReadCard = 2131361886;
+			public const int MPUPrinting = 2131361886;
 			
 			// aapt resource value: 0x7f0a005f
-			public const int MPUReceiptSent = 2131361887;
+			public const int MPUReadCard = 2131361887;
 			
 			// aapt resource value: 0x7f0a0060
-			public const int MPURefund = 2131361888;
+			public const int MPUReceiptSent = 2131361888;
 			
 			// aapt resource value: 0x7f0a0061
-			public const int MPURefundAborted = 2131361889;
+			public const int MPURefund = 2131361889;
 			
 			// aapt resource value: 0x7f0a0062
-			public const int MPURefundApproved = 2131361890;
+			public const int MPURefundAborted = 2131361890;
 			
 			// aapt resource value: 0x7f0a0063
-			public const int MPURefundDeclined = 2131361891;
+			public const int MPURefundApproved = 2131361891;
 			
 			// aapt resource value: 0x7f0a0064
-			public const int MPURefundPrompt = 2131361892;
+			public const int MPURefundDeclined = 2131361892;
 			
 			// aapt resource value: 0x7f0a0065
-			public const int MPURefundTransaction = 2131361893;
+			public const int MPURefundPrompt = 2131361893;
 			
 			// aapt resource value: 0x7f0a0066
-			public const int MPURefunded = 2131361894;
+			public const int MPURefundTransaction = 2131361894;
 			
 			// aapt resource value: 0x7f0a0067
-			public const int MPUReprintReceipt = 2131361895;
+			public const int MPURefunded = 2131361895;
 			
 			// aapt resource value: 0x7f0a0068
-			public const int MPURequestPassword = 2131361896;
+			public const int MPUReprintReceipt = 2131361896;
 			
 			// aapt resource value: 0x7f0a0069
-			public const int MPURequired = 2131361897;
+			public const int MPURequestPassword = 2131361897;
 			
 			// aapt resource value: 0x7f0a006a
-			public const int MPUResend = 2131361898;
+			public const int MPURequired = 2131361898;
 			
 			// aapt resource value: 0x7f0a006b
-			public const int MPUResendReceipt = 2131361899;
+			public const int MPUResend = 2131361899;
 			
 			// aapt resource value: 0x7f0a006c
-			public const int MPURetry = 2131361900;
+			public const int MPUResendReceipt = 2131361900;
 			
 			// aapt resource value: 0x7f0a006d
-			public const int MPUSale = 2131361901;
+			public const int MPURetry = 2131361901;
 			
 			// aapt resource value: 0x7f0a006e
-			public const int MPUScanCode = 2131361902;
+			public const int MPUSale = 2131361902;
 			
 			// aapt resource value: 0x7f0a006f
-			public const int MPUSelectAccount = 2131361903;
+			public const int MPUScanCode = 2131361903;
 			
 			// aapt resource value: 0x7f0a0070
-			public const int MPUSelectPaymentOption = 2131361904;
+			public const int MPUSelectAccount = 2131361904;
 			
 			// aapt resource value: 0x7f0a0071
-			public const int MPUSend = 2131361905;
+			public const int MPUSelectPaymentOption = 2131361905;
 			
 			// aapt resource value: 0x7f0a0072
-			public const int MPUSendReceipt = 2131361906;
+			public const int MPUSend = 2131361906;
 			
 			// aapt resource value: 0x7f0a0073
-			public const int MPUSettings = 2131361907;
+			public const int MPUSendReceipt = 2131361907;
 			
 			// aapt resource value: 0x7f0a0074
-			public const int MPUSignatureStatusLine = 2131361908;
+			public const int MPUSettings = 2131361908;
 			
 			// aapt resource value: 0x7f0a0075
-			public const int MPUSummary = 2131361909;
+			public const int MPUSignatureStatusLine = 2131361909;
 			
 			// aapt resource value: 0x7f0a0076
-			public const int MPUTotal = 2131361910;
+			public const int MPUSummary = 2131361910;
 			
 			// aapt resource value: 0x7f0a0077
-			public const int MPUTransactionTypePreauthorization = 2131361911;
+			public const int MPUTotal = 2131361911;
 			
 			// aapt resource value: 0x7f0a0078
-			public const int MPUTransactionTypeRefund = 2131361912;
+			public const int MPUTransactionTypePreauthorization = 2131361912;
 			
 			// aapt resource value: 0x7f0a0079
-			public const int MPUTransactionTypeSale = 2131361913;
+			public const int MPUTransactionTypeRefund = 2131361913;
 			
 			// aapt resource value: 0x7f0a007a
-			public const int MPUUnionPay = 2131361914;
+			public const int MPUTransactionTypeSale = 2131361914;
 			
 			// aapt resource value: 0x7f0a007b
-			public const int MPUUnknown = 2131361915;
+			public const int MPUUnionPay = 2131361915;
 			
 			// aapt resource value: 0x7f0a007c
-			public const int MPUUnknownUsername = 2131361916;
+			public const int MPUUnknown = 2131361916;
 			
 			// aapt resource value: 0x7f0a007d
-			public const int MPUVersion = 2131361917;
+			public const int MPUUnknownUsername = 2131361917;
 			
 			// aapt resource value: 0x7f0a007e
-			public const int MPUVisa = 2131361918;
+			public const int MPUVersion = 2131361918;
 			
 			// aapt resource value: 0x7f0a007f
-			public const int MPUWrongCredentials = 2131361919;
+			public const int MPUVisa = 2131361919;
+			
+			// aapt resource value: 0x7f0a0080
+			public const int MPUWrongCredentials = 2131361920;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_action_bar_home_description = 2131361792;
@@ -2968,8 +2971,8 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0a0010
 			public const int abc_toolbar_collapse_description = 2131361808;
 			
-			// aapt resource value: 0x7f0a008d
-			public const int app_name = 2131361933;
+			// aapt resource value: 0x7f0a008e
+			public const int app_name = 2131361934;
 			
 			// aapt resource value: 0x7f0a0012
 			public const int common_google_play_services_enable_button = 2131361810;
@@ -3022,44 +3025,44 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0a0021
 			public const int common_signin_button_text_long = 2131361825;
 			
-			// aapt resource value: 0x7f0a008c
-			public const int hello = 2131361932;
-			
-			// aapt resource value: 0x7f0a0080
-			public const int mpu_fa_bank = 2131361920;
+			// aapt resource value: 0x7f0a008d
+			public const int hello = 2131361933;
 			
 			// aapt resource value: 0x7f0a0081
-			public const int mpu_fa_close = 2131361921;
+			public const int mpu_fa_bank = 2131361921;
 			
 			// aapt resource value: 0x7f0a0082
-			public const int mpu_fa_compress = 2131361922;
+			public const int mpu_fa_close = 2131361922;
 			
 			// aapt resource value: 0x7f0a0083
-			public const int mpu_fa_credit_card = 2131361923;
+			public const int mpu_fa_compress = 2131361923;
 			
 			// aapt resource value: 0x7f0a0084
-			public const int mpu_fa_email = 2131361924;
+			public const int mpu_fa_credit_card = 2131361924;
 			
 			// aapt resource value: 0x7f0a0085
-			public const int mpu_fa_history = 2131361925;
+			public const int mpu_fa_email = 2131361925;
 			
 			// aapt resource value: 0x7f0a0086
-			public const int mpu_fa_info = 2131361926;
+			public const int mpu_fa_history = 2131361926;
 			
 			// aapt resource value: 0x7f0a0087
-			public const int mpu_fa_lock = 2131361927;
+			public const int mpu_fa_info = 2131361927;
 			
 			// aapt resource value: 0x7f0a0088
-			public const int mpu_fa_print = 2131361928;
+			public const int mpu_fa_lock = 2131361928;
 			
 			// aapt resource value: 0x7f0a0089
-			public const int mpu_fa_search = 2131361929;
+			public const int mpu_fa_print = 2131361929;
 			
 			// aapt resource value: 0x7f0a008a
-			public const int mpu_fa_th = 2131361930;
+			public const int mpu_fa_search = 2131361930;
 			
 			// aapt resource value: 0x7f0a008b
-			public const int mpu_fa_times_circle = 2131361931;
+			public const int mpu_fa_th = 2131361931;
+			
+			// aapt resource value: 0x7f0a008c
+			public const int mpu_fa_times_circle = 2131361932;
 			
 			// aapt resource value: 0x7f0a0011
 			public const int status_bar_notification_info_overflow = 2131361809;
