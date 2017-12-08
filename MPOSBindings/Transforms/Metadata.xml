@@ -20,8 +20,11 @@
 
 
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/class[@name='BaseTransactionProcessListener']" />
-	
-    <attr path="/api/package[@name='io.mpos.transactionprovider']/
+
+    <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicProcessListener']" />
+
+
+  <attr path="/api/package[@name='io.mpos.transactionprovider']/
         interface[@name='GenericProcessListener']/method[@name='onCompleted']"
         name="argsType">GenericProcessListenerOnCompletedEventArgs</attr>
 

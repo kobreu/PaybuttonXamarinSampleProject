@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -56,6 +56,7 @@
   <ItemGroup>
     <None Include="Additions\AboutAdditions.txt" />
     <None Include="Jars\AboutJars.txt" />
+    <LibraryProjectZip Include="Jars\mpos.android.ui-2.26.1.aar" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,8 +80,5 @@
       <Project>{960A52C8-807C-4EAE-A351-54BAE730F45F}</Project>
       <Name>CoreBindings</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <LibraryProjectZip Include="Jars\mpos.android.ui-2.18.0.aar" />
   </ItemGroup>
 </Project>

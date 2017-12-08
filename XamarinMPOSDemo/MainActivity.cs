@@ -45,7 +45,6 @@ namespace XamarinMPOSDemo
 			provider.StartTransaction (template, IO.Mpos.Accessories.AccessoryFamily.MiuraMpi, listener);*/
 
 			// Implementation with UI
-
 			AccessoryParameters accessoryParameters = new AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.Mock).Mocked().Build();
 			var transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder().Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur).Subject("subject").CustomIdentifier("identifier").Build();
 
