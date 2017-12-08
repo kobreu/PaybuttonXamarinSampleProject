@@ -80,6 +80,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\mpos.android.ui-2.24.0.aar" />
+    <LibraryProjectZip Include="Jars\mpos.android.ui-2.24.2.aar" />
   </ItemGroup>
 </Project>

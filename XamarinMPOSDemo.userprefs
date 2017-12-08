@@ -1,8 +1,9 @@
 ﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs">
     <Files>
-      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="39" Column="33" />
-      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="27" Column="62" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="51" Column="13" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="27" Column="1" />
+      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs" Line="479" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
