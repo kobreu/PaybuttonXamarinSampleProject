@@ -53,7 +53,7 @@
     <TransformFile Include="Transforms\Metadata.xml" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\mpos.android.comlinks.bluetooth-2.24.2.aar" />
+    <LibraryProjectZip Include="Jars\mpos.android.comlinks.bluetooth-2.25.0.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>

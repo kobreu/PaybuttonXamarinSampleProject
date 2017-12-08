@@ -67,7 +67,7 @@
     <EmbeddedReferenceJar Include="Jars\okio-1.6.0.jar" />
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\mpos.android.core-2.24.2.aar" />
+    <LibraryProjectZip Include="Jars\mpos.android.core-2.25.0.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
