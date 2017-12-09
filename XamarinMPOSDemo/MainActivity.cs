@@ -46,8 +46,10 @@ namespace XamarinMPOSDemo
 
 			// Implementation with UI
 
-			AccessoryParameters accessoryParameters = new AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
+			/*AccessoryParameters accessoryParameters = new AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
 			var transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder().Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur).Subject("subject").CustomIdentifier("identifier").Build();
+
+
 
 			MposUi ui = MposUi.Initialize (this, IO.Mpos.Provider.ProviderMode.Test, "6ef3adee-3bce-48b7-b3c1-3185c14d67b6", "E1JewPljP1BjDwCY9yPO3XtNMa3NjHUZ");
 
@@ -55,8 +57,22 @@ namespace XamarinMPOSDemo
 			ui.Configuration.SetSummaryFeatures(Java.Util.EnumSet.Of(IO.Mpos.UI.Shared.Model.MposUiConfiguration.SummaryFeature.SendReceiptViaEmail));
 
 			Intent intent = ui.CreateTransactionIntent(transactionParameters);
-			StartActivityForResult (intent, MposUi.RequestCodePayment);
-		}
+			StartActivityForResult (intent, MposUi.RequestCodePayment);*/
+
+            // Offline Transactions
+
+            var provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "bf12b302-13ff-46d3-b76a-f795b58a0738", "wptdjc5P1LcpDskmT0UzePF7DEGBNfBF");
+
+            IO.Mpos.Transactions.Parameters.ITransactionParameters transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder()
+                .Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur)
+                                                         .Subject("Bouquet of Flowers")
+                                                         .CustomIdentifier("yourReferenceForTheTransaction")
+                                                         .Build();
+
+            var accessoryParameters = new IO.Mpos.Accessories.Parameters.AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
+
+            provider.OfflineModule.StartTransaction(transactionParameters, accessoryParameters, null, new AT.Korbi.Nothertestiboy.SomeListener(FindViewById<TextView>(Resource.Id.textView1)));
+        }
 			
 		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data) {
 			base.OnActivityResult (requestCode, resultCode, data);

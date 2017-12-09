@@ -1,10 +1,17 @@
 ﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IBasicProcessListener.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSBindings/obj/Debug/generated/src/AT.Korbi.Nothertestiboy.SomeListener.cs">
     <Files>
-      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="51" Column="13" />
-      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="27" Column="1" />
-      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs" Line="479" Column="1" />
-      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IBasicProcessListener.cs" Line="160" Column="28" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="76" Column="4" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="44" Column="150" />
+      <File FileName="MPOSUiBindings/obj/Debug/generated/src/IO.Mpos.UI.Shared.MposUi.cs" Line="465" Column="1" />
+      <File FileName="MPOSUiBindings/packages.config" Line="1" Column="1" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.0-21/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="2028" Column="3" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IGenericProcessListener.cs" Line="141" Column="45" />
+      <File FileName="MiuraBindings/Transforms/Metadata.xml" Line="10" Column="3" />
+      <File FileName="MPOSBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
+      <File FileName="XamarinMPOSDemo/obj/Debug/android/src/md52820dc8dcbefcd7e88bd7a322db0556e/MyPaymentProcessListener.java" Line="4" Column="8" />
+      <File FileName="XamarinMPOSDemo/obj/Debug/android/src/mono/io/mpos/transactionprovider/GenericProcessListenerImplementor.java" Line="8" Column="1" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/AT.Korbi.Nothertestiboy.SomeListener.cs" Line="9" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

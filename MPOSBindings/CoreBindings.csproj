@@ -55,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Assets\" />
+    <Folder Include="Native\" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedReferenceJar Include="Jars\okhttp-ws-2.7.4.jar" />
@@ -62,16 +63,41 @@
     <EmbeddedReferenceJar Include="Jars\bolts-android-1.2.1.jar" />
     <EmbeddedReferenceJar Include="Jars\otto-1.3.5.jar" />
     <EmbeddedReferenceJar Include="Jars\okio-1.6.0.jar" />
+    <EmbeddedReferenceJar Include="Jars\jackson-core-2.5.0.jar" />
+    <EmbeddedReferenceJar Include="Jars\jackson-annotations-2.5.0.jar" />
+    <EmbeddedReferenceJar Include="Jars\jackson-databind-2.5.0.jar" />
+    <EmbeddedReferenceJar Include="Jars\couchbase-lite-android-1.4.0.jar" />
     <EmbeddedReferenceJar Include="Jars\couchbase-lite-java-core-1.4.0.jar" />
-    <EmbeddedReferenceJar Include="Jars\jackson-annotations-2.4.4.jar" />
-    <EmbeddedReferenceJar Include="Jars\jackson-core-2.4.4.jar" />
-    <EmbeddedReferenceJar Include="Jars\jackson-databind-2.4.4.jar" />
+    <EmbeddedReferenceJar Include="Jars\couchbase-lite-java-forestdb-1.4.0.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\couchbase-lite-android-1.4.0.jar" />
+    <EmbeddedJar Include="Jars\somelistener.jar" />
   </ItemGroup>
   <ItemGroup>
     <LibraryProjectZip Include="Jars\mpos.android.core-2.26.1.aar" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedNativeLibrary Include="Native\arm64-v8a\libCouchbaseLiteJavaForestDB.so" />
+    <EmbeddedNativeLibrary Include="Native\arm64-v8a\libcbljavasqlitecustom.so" />
+    <EmbeddedNativeLibrary Include="Native\arm64-v8a\libsqlite3.so" />
+    <EmbeddedNativeLibrary Include="Native\armeabi\libCouchbaseLiteJavaForestDB.so" />
+    <EmbeddedNativeLibrary Include="Native\armeabi\libcbljavasqlitecustom.so" />
+    <EmbeddedNativeLibrary Include="Native\armeabi\libsqlite3.so" />
+    <EmbeddedNativeLibrary Include="Native\armeabi-v7a\libCouchbaseLiteJavaForestDB.so" />
+    <EmbeddedNativeLibrary Include="Native\armeabi-v7a\libcbljavasqlitecustom.so" />
+    <EmbeddedNativeLibrary Include="Native\armeabi-v7a\libsqlite3.so" />
+    <EmbeddedNativeLibrary Include="Native\mips\libCouchbaseLiteJavaForestDB.so" />
+    <EmbeddedNativeLibrary Include="Native\mips\libcbljavasqlitecustom.so" />
+    <EmbeddedNativeLibrary Include="Native\mips\libsqlite3.so" />
+    <EmbeddedNativeLibrary Include="Native\mips64\libCouchbaseLiteJavaForestDB.so" />
+    <EmbeddedNativeLibrary Include="Native\mips64\libcbljavasqlitecustom.so" />
+    <EmbeddedNativeLibrary Include="Native\mips64\libsqlite3.so" />
+    <EmbeddedNativeLibrary Include="Native\x86\libCouchbaseLiteJavaForestDB.so" />
+    <EmbeddedNativeLibrary Include="Native\x86\libcbljavasqlitecustom.so" />
+    <EmbeddedNativeLibrary Include="Native\x86\libsqlite3.so" />
+    <EmbeddedNativeLibrary Include="Native\x86_64\libCouchbaseLiteJavaForestDB.so" />
+    <EmbeddedNativeLibrary Include="Native\x86_64\libcbljavasqlitecustom.so" />
+    <EmbeddedNativeLibrary Include="Native\x86_64\libsqlite3.so" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
