@@ -61,7 +61,7 @@ namespace XamarinMPOSDemo
 
             // Offline Transactions
 
-            var provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "bf12b302-13ff-46d3-b76a-f795b58a0738", "wptdjc5P1LcpDskmT0UzePF7DEGBNfBF");
+            var provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "fc78e704-8349-430d-85ce-4c332a2adcd1", "wL5N2bKfNXu110KdIOwxGV0e2d6WZ7UL");
 
             IO.Mpos.Transactions.Parameters.ITransactionParameters transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder()
                 .Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur)
@@ -71,7 +71,10 @@ namespace XamarinMPOSDemo
 
             var accessoryParameters = new IO.Mpos.Accessories.Parameters.AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
 
-            provider.OfflineModule.StartTransaction(transactionParameters, accessoryParameters, null, new AT.Korbi.Nothertestiboy.SomeListener(FindViewById<TextView>(Resource.Id.textView1)));
+
+
+
+            provider.OfflineModule.StartTransaction(transactionParameters, accessoryParameters, null, new JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
         }
 			
 		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data) {

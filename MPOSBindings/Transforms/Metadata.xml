@@ -24,7 +24,12 @@
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/class[@name='TransactionProvider']" />
 
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/class[@name='BaseTransactionProcessListener']" />
+    <!--<remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryConnectListener']" />
+    <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryUpdateListener']" />
+    <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryDisconnectListener2']" />-->
 
+
+    
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProvider']/method[@name='readCard']" />
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProvider']/method[@name='printCustomerReceiptForTransaction']" />
 
@@ -38,11 +43,57 @@
         interface[@name='GenericProcessListener']/method[@name='onStatusChanged']"
         name="argsType">GenericProcessListenerOnStatusChangedEventArgs</attr>-->
 
-	
-	<remove-node path="/api/package[@name='io.mpos.transactionprovider']/
-        interface[@name='GenericProcessListener']/method[@name='onStatusChanged']" />
-    <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onCompleted']" />
+    
 
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onStatusChanged']" name="argsType">OnStatusChangedEventArgs</attr>
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onCompleted']" name="argsType">OnCompletedEventArgs</attr>
+
+
+    <!--<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProvider']/method[@name='onStatusChanged']/parameter[2]" name="managedType">Java.Lang.Object</attr>-->
+
+
+    
+    
+	<!--<remove-node path="/api/package[@name='io.mpos.transactionprovider']/
+        interface[@name='GenericProcessListener']/method[@name='onStatusChanged']" />-->
+    <!--<remove-node path="/api/package[@name='io.mpos.transactionprovider']/
+        interface[@name='GenericProcessListener']/method[@name='onCompleted']" />-->
+
+
+    
+    <!--<attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onCompleted']" 
+    name="managedName">Blbla</attr>-->
+    <!--<attr path="/api/package[@name='io.mpos.transactionprovider']/
+        interface[@name='GenericProcessListener']/method[@name='onCompleted']/parameter[1]" name="type">IO.Mpos.Transactionprovider.ITransactionProcess</attr>
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/
+        interface[@name='GenericProcessListener']/method[@name='onCompleted']/parameter[2]" name="type">IO.Mpos.Transactions.ITransaction</attr>
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/
+        interface[@name='GenericProcessListener']/method[@name='onCompleted']/parameter[3]" name="type">IO.Mpos.Transactionprovider.ITransactionProcessDetails</attr>-->
+
+ <!--   <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onStatusChanged']/parameter[1]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onStatusChanged']/parameter[2]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onStatusChanged']/parameter[3]" name="managedType">Java.Lang.Object</attr>
+
+    <attr path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onStatusChanged']/parameter[1]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onStatusChanged']/parameter[2]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onStatusChanged']/parameter[3]" name="managedType">Java.Lang.Object</attr>
+
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onCompleted']/parameter[1]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onCompleted']/parameter[2]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']/method[@name='onCompleted']/parameter[3]" name="managedType">Java.Lang.Object</attr>
+
+    <attr path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onCompleted']/parameter[1]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onCompleted']/parameter[2]" name="managedType">Java.Lang.Object</attr>
+    <attr path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onCompleted']/parameter[3]" name="managedType">Java.Lang.Object</attr>-->
+
+
+    <remove-node path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']" />
+
+    
+   <!-- <remove-node path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onCompleted' and count(parameter)=3 and parameter[1][@type='io.mpos.transactionprovider.TransactionProcess'] and parameter[2][@type='io.mpos.transactions.Transaction'] and parameter[3][@type='io.mpos.transactionprovider.TransactionProcessDetails']]" />
+    <remove-node path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onStatusChanged' and count(parameter)=3 and parameter[1][@type='io.mpos.transactionprovider.TransactionProcess'] and parameter[2][@type='io.mpos.transactions.Transaction'] and parameter[3][@type='io.mpos.transactionprovider.TransactionProcessDetails']]" />-->
+
+    
 	<!--
 	<attr path="/api/package[@name='io.mpos.transactionprovider']/
         interface[@name='GenericProcessListener']/method[@name='onStatusChanged']/parameter[1]" name="type">IO.Mpos.Transactionprovider.ITransactionProcess</attr>

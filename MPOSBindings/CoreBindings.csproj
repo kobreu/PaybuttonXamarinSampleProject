@@ -71,9 +71,6 @@
     <EmbeddedReferenceJar Include="Jars\couchbase-lite-java-forestdb-1.4.0.jar" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedJar Include="Jars\somelistener.jar" />
-  </ItemGroup>
-  <ItemGroup>
     <LibraryProjectZip Include="Jars\mpos.android.core-2.26.1.aar" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +95,9 @@
     <EmbeddedNativeLibrary Include="Native\x86_64\libCouchbaseLiteJavaForestDB.so" />
     <EmbeddedNativeLibrary Include="Native\x86_64\libcbljavasqlitecustom.so" />
     <EmbeddedNativeLibrary Include="Native\x86_64\libsqlite3.so" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedJar Include="Jars\xamarinlistener.jar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
 </Project>
