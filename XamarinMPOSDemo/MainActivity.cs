@@ -9,12 +9,18 @@ using Android.OS;
 using IO.Mpos;
 using IO.Mpos.UI.Shared;
 using IO.Mpos.Accessories.Parameters;
+using IO.Mpos.Transactionprovider.Offline;
 
 namespace XamarinMPOSDemo
 {
+
+
+
 	[Activity (Label = "XamarinMPOSDemo", MainLauncher = true, Icon = "@drawable/icon")]
 	public class MainActivity : Activity
 	{
+        IO.Mpos.Transactionprovider.ITransactionProvider provider;
+
 		protected override void OnCreate (Bundle bundle)
 		{
 			base.OnCreate (bundle);
@@ -29,10 +35,23 @@ namespace XamarinMPOSDemo
 			button.Click += delegate {
 				StartPayment();
 			};
+
+            Button button2 = FindViewById<Button>(Resource.Id.button1);
+
+            button2.Click += delegate {
+                SubmitBatch();
+            };
+
+
+            this.provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "fc78e704-8349-430d-85ce-4c332a2adcd1", "wL5N2bKfNXu110KdIOwxGV0e2d6WZ7UL");
 		}
 
+        private void SubmitBatch()
+        {
+            provider.OfflineModule.SubmitTransactionsBatch(new MySubmitBatchTransactionListener(FindViewById<TextView>(Resource.Id.textView1)));   
+        }
 
-		protected void StartPayment()
+        protected void StartPayment()
 		{
 			// Implementation without UI
 
@@ -61,7 +80,6 @@ namespace XamarinMPOSDemo
 
             // Offline Transactions
 
-            var provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "fc78e704-8349-430d-85ce-4c332a2adcd1", "wL5N2bKfNXu110KdIOwxGV0e2d6WZ7UL");
 
             IO.Mpos.Transactions.Parameters.ITransactionParameters transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder()
                 .Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur)
@@ -71,10 +89,7 @@ namespace XamarinMPOSDemo
 
             var accessoryParameters = new IO.Mpos.Accessories.Parameters.AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
 
-
-
-
-            provider.OfflineModule.StartTransaction(transactionParameters, accessoryParameters, null, new JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
+            provider.OfflineModule.StartTransaction(transactionParameters, accessoryParameters, null, new Com.Payworks.JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
         }
 			
 		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data) {
@@ -98,8 +113,25 @@ namespace XamarinMPOSDemo
 			}
 
 		}
-	
-	}
+
+        private class MySubmitBatchTransactionListener : Java.Lang.Object,ISubmitTransactionsBatchProcessListener
+        {
+            private TextView textView;
+
+            public MySubmitBatchTransactionListener(TextView textView)
+            {
+                this.textView = textView;
+            }
+
+
+            public void OnCompleted(ISubmitTransactionsBatchProcessDetails p0)
+            {
+                this.textView.Text = "Completed";
+            }
+
+
+        }
+    }
 }
 
 

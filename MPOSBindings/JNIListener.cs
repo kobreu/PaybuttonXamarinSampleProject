@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Android.Runtime;
 
-namespace XamarinMPOSDemo
+namespace Com.Payworks
 {
 
     // Metadata.xml XPath class reference: path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']"
@@ -76,7 +76,7 @@ namespace XamarinMPOSDemo
 
         static void n_OnApplicationSelectionRequired_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Ljava_util_List_(IntPtr jnienv, IntPtr native__this, IntPtr native_p0, IntPtr native_p1, IntPtr native_p2)
         {
-            global::XamarinMPOSDemo.JNIListener __this = global::Java.Lang.Object.GetObject<global::XamarinMPOSDemo.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+            global::Com.Payworks.JNIListener __this = global::Java.Lang.Object.GetObject<global::Com.Payworks.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcess p0 = (global::IO.Mpos.Transactionprovider.ITransactionProcess)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcess>(native_p0, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactions.ITransaction p1 = (global::IO.Mpos.Transactions.ITransaction)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactions.ITransaction>(native_p1, JniHandleOwnership.DoNotTransfer);
             var p2 = global::Android.Runtime.JavaList<global::IO.Mpos.Paymentdetails.IApplicationInformation>.FromJniHandle(native_p2, JniHandleOwnership.DoNotTransfer);
@@ -121,13 +121,13 @@ namespace XamarinMPOSDemo
 
         static void n_OnCompleted_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_(IntPtr jnienv, IntPtr native__this, IntPtr native_p0, IntPtr native_p1, IntPtr native_p2)
         {
-            global::XamarinMPOSDemo.JNIListener __this = global::Java.Lang.Object.GetObject<XamarinMPOSDemo.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+            global::Com.Payworks.JNIListener __this = global::Java.Lang.Object.GetObject<Com.Payworks.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcess p0 = (global::IO.Mpos.Transactionprovider.ITransactionProcess)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcess>(native_p0, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactions.ITransaction p1 = (global::IO.Mpos.Transactions.ITransaction)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactions.ITransaction>(native_p1, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcessDetails p2 = (global::IO.Mpos.Transactionprovider.ITransactionProcessDetails)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcessDetails>(native_p2, JniHandleOwnership.DoNotTransfer);
-            __this.OnCompleted((Java.Lang.Object)p0,(Java.Lang.Object) p1,(Java.Lang.Object) p2);
+            __this.OnCompleted((Java.Lang.Object)p0, (Java.Lang.Object)p1, (Java.Lang.Object)p2);
         }
-#pragma warning restore 0169
+
 
         static IntPtr id_onCompleted_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_;
         // Metadata.xml XPath method reference: path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onCompleted' and count(parameter)=3 and parameter[1][@type='io.mpos.transactionprovider.TransactionProcess'] and parameter[2][@type='io.mpos.transactions.Transaction'] and parameter[3][@type='io.mpos.transactionprovider.TransactionProcessDetails']]"
@@ -169,7 +169,7 @@ namespace XamarinMPOSDemo
 
         static void n_OnCustomerSignatureRequired_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_(IntPtr jnienv, IntPtr native__this, IntPtr native_p0, IntPtr native_p1)
         {
-            global::XamarinMPOSDemo.JNIListener __this = global::Java.Lang.Object.GetObject<global::XamarinMPOSDemo.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+            global::Com.Payworks.JNIListener __this = global::Java.Lang.Object.GetObject<global::Com.Payworks.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcess p0 = (global::IO.Mpos.Transactionprovider.ITransactionProcess)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcess>(native_p0, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactions.ITransaction p1 = (global::IO.Mpos.Transactions.ITransaction)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactions.ITransaction>(native_p1, JniHandleOwnership.DoNotTransfer);
             __this.OnCustomerSignatureRequired(p0, p1);
@@ -210,7 +210,7 @@ namespace XamarinMPOSDemo
 
         static void n_OnCustomerVerificationRequired_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_(IntPtr jnienv, IntPtr native__this, IntPtr native_p0, IntPtr native_p1)
         {
-            global::XamarinMPOSDemo.JNIListener __this = global::Java.Lang.Object.GetObject<global::XamarinMPOSDemo.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+            global::Com.Payworks.JNIListener __this = global::Java.Lang.Object.GetObject<global::Com.Payworks.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcess p0 = (global::IO.Mpos.Transactionprovider.ITransactionProcess)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcess>(native_p0, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactions.ITransaction p1 = (global::IO.Mpos.Transactions.ITransaction)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactions.ITransaction>(native_p1, JniHandleOwnership.DoNotTransfer);
             __this.OnCustomerVerificationRequired(p0, p1);
@@ -251,7 +251,7 @@ namespace XamarinMPOSDemo
 
         static void n_OnStatusChanged_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_(IntPtr jnienv, IntPtr native__this, IntPtr native_p0, IntPtr native_p1, IntPtr native_p2)
         {
-            global::XamarinMPOSDemo.JNIListener __this = global::Java.Lang.Object.GetObject<global::XamarinMPOSDemo.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+            global::Com.Payworks.JNIListener __this = global::Java.Lang.Object.GetObject<global::Com.Payworks.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcess p0 = (global::IO.Mpos.Transactionprovider.ITransactionProcess)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcess>(native_p0, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactions.ITransaction p1 = (global::IO.Mpos.Transactions.ITransaction)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactions.ITransaction>(native_p1, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcessDetails p2 = (global::IO.Mpos.Transactionprovider.ITransactionProcessDetails)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcessDetails>(native_p2, JniHandleOwnership.DoNotTransfer);

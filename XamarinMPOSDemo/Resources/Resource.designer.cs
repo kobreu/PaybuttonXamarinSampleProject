@@ -1926,8 +1926,8 @@ namespace XamarinMPOSDemo
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0d008d
-			public const int action0 = 2131558541;
+			// aapt resource value: 0x7f0d008e
+			public const int action0 = 2131558542;
 			
 			// aapt resource value: 0x7f0d0048
 			public const int action_bar = 2131558472;
@@ -1953,8 +1953,8 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0d0049
 			public const int action_context_bar = 2131558473;
 			
-			// aapt resource value: 0x7f0d0091
-			public const int action_divider = 2131558545;
+			// aapt resource value: 0x7f0d0092
+			public const int action_divider = 2131558546;
 			
 			// aapt resource value: 0x7f0d0002
 			public const int action_menu_divider = 2131558402;
@@ -1992,17 +1992,20 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0d0013
 			public const int beginning = 2131558419;
 			
+			// aapt resource value: 0x7f0d0058
+			public const int button1 = 2131558488;
+			
 			// aapt resource value: 0x7f0d003e
 			public const int buttonPanel = 2131558462;
 			
-			// aapt resource value: 0x7f0d008e
-			public const int cancel_action = 2131558542;
+			// aapt resource value: 0x7f0d008f
+			public const int cancel_action = 2131558543;
 			
 			// aapt resource value: 0x7f0d0040
 			public const int checkbox = 2131558464;
 			
-			// aapt resource value: 0x7f0d0094
-			public const int chronometer = 2131558548;
+			// aapt resource value: 0x7f0d0095
+			public const int chronometer = 2131558549;
 			
 			// aapt resource value: 0x7f0d0017
 			public const int collapseActionView = 2131558423;
@@ -2040,8 +2043,8 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0d0014
 			public const int end = 2131558420;
 			
-			// aapt resource value: 0x7f0d0099
-			public const int end_padder = 2131558553;
+			// aapt resource value: 0x7f0d009a
+			public const int end_padder = 2131558554;
 			
 			// aapt resource value: 0x7f0d002f
 			public const int expand_activities_button = 2131558447;
@@ -2067,17 +2070,17 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0d0030
 			public const int image = 2131558448;
 			
-			// aapt resource value: 0x7f0d0098
-			public const int info = 2131558552;
+			// aapt resource value: 0x7f0d0099
+			public const int info = 2131558553;
 			
 			// aapt resource value: 0x7f0d002a
 			public const int light = 2131558442;
 			
-			// aapt resource value: 0x7f0d0092
-			public const int line1 = 2131558546;
+			// aapt resource value: 0x7f0d0093
+			public const int line1 = 2131558547;
 			
-			// aapt resource value: 0x7f0d0096
-			public const int line3 = 2131558550;
+			// aapt resource value: 0x7f0d0097
+			public const int line3 = 2131558551;
 			
 			// aapt resource value: 0x7f0d0009
 			public const int listMode = 2131558409;
@@ -2085,167 +2088,167 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0d0032
 			public const int list_item = 2131558450;
 			
-			// aapt resource value: 0x7f0d0090
-			public const int media_actions = 2131558544;
+			// aapt resource value: 0x7f0d0091
+			public const int media_actions = 2131558545;
 			
 			// aapt resource value: 0x7f0d0015
 			public const int middle = 2131558421;
 			
-			// aapt resource value: 0x7f0d005e
-			public const int mpu_abort_button = 2131558494;
-			
-			// aapt resource value: 0x7f0d0068
-			public const int mpu_action_button = 2131558504;
-			
-			// aapt resource value: 0x7f0d009a
-			public const int mpu_action_help = 2131558554;
-			
-			// aapt resource value: 0x7f0d0074
-			public const int mpu_amount_view = 2131558516;
-			
-			// aapt resource value: 0x7f0d0072
-			public const int mpu_amount_view_container = 2131558514;
-			
-			// aapt resource value: 0x7f0d0070
-			public const int mpu_authorize_amount_view = 2131558512;
-			
-			// aapt resource value: 0x7f0d005a
-			public const int mpu_camera_preview = 2131558490;
-			
-			// aapt resource value: 0x7f0d0075
-			public const int mpu_clear_button = 2131558517;
-			
-			// aapt resource value: 0x7f0d0062
-			public const int mpu_close_button = 2131558498;
-			
-			// aapt resource value: 0x7f0d006e
-			public const int mpu_continue_button = 2131558510;
-			
-			// aapt resource value: 0x7f0d006c
-			public const int mpu_email_address_view = 2131558508;
-			
-			// aapt resource value: 0x7f0d0065
-			public const int mpu_email_view = 2131558501;
-			
-			// aapt resource value: 0x7f0d0067
-			public const int mpu_forgot_password_button = 2131558503;
-			
-			// aapt resource value: 0x7f0d005b
-			public const int mpu_fragment_container = 2131558491;
-			
-			// aapt resource value: 0x7f0d005c
-			public const int mpu_header_view = 2131558492;
+			// aapt resource value: 0x7f0d005f
+			public const int mpu_abort_button = 2131558495;
 			
 			// aapt resource value: 0x7f0d0069
-			public const int mpu_login_progress = 2131558505;
+			public const int mpu_action_button = 2131558505;
 			
-			// aapt resource value: 0x7f0d0064
-			public const int mpu_logo_image = 2131558500;
+			// aapt resource value: 0x7f0d009b
+			public const int mpu_action_help = 2131558555;
 			
-			// aapt resource value: 0x7f0d0066
-			public const int mpu_password_view = 2131558502;
-			
-			// aapt resource value: 0x7f0d006a
-			public const int mpu_progress_view = 2131558506;
-			
-			// aapt resource value: 0x7f0d0061
-			public const int mpu_retry_button = 2131558497;
+			// aapt resource value: 0x7f0d0075
+			public const int mpu_amount_view = 2131558517;
 			
 			// aapt resource value: 0x7f0d0073
-			public const int mpu_scheme_view = 2131558515;
-			
-			// aapt resource value: 0x7f0d005d
-			public const int mpu_selection_list_view = 2131558493;
-			
-			// aapt resource value: 0x7f0d006d
-			public const int mpu_send_button = 2131558509;
-			
-			// aapt resource value: 0x7f0d006f
-			public const int mpu_signature_view = 2131558511;
+			public const int mpu_amount_view_container = 2131558515;
 			
 			// aapt resource value: 0x7f0d0071
-			public const int mpu_signature_view_separator = 2131558513;
+			public const int mpu_authorize_amount_view = 2131558513;
 			
-			// aapt resource value: 0x7f0d0060
-			public const int mpu_status_container = 2131558496;
-			
-			// aapt resource value: 0x7f0d006b
-			public const int mpu_status_icon_view = 2131558507;
-			
-			// aapt resource value: 0x7f0d0063
-			public const int mpu_status_icon_view_container = 2131558499;
-			
-			// aapt resource value: 0x7f0d0088
-			public const int mpu_status_view = 2131558536;
-			
-			// aapt resource value: 0x7f0d007e
-			public const int mpu_summary_account_number_view = 2131558526;
-			
-			// aapt resource value: 0x7f0d0079
-			public const int mpu_summary_amount_view = 2131558521;
-			
-			// aapt resource value: 0x7f0d0082
-			public const int mpu_summary_capture_button = 2131558530;
-			
-			// aapt resource value: 0x7f0d0087
-			public const int mpu_summary_close_button = 2131558535;
-			
-			// aapt resource value: 0x7f0d0081
-			public const int mpu_summary_datetime_view = 2131558529;
-			
-			// aapt resource value: 0x7f0d007c
-			public const int mpu_summary_divider_header_view = 2131558524;
-			
-			// aapt resource value: 0x7f0d007f
-			public const int mpu_summary_divider_scheme_accno_view = 2131558527;
-			
-			// aapt resource value: 0x7f0d0077
-			public const int mpu_summary_header_container_view = 2131558519;
-			
-			// aapt resource value: 0x7f0d0086
-			public const int mpu_summary_print_receipt_button = 2131558534;
+			// aapt resource value: 0x7f0d005b
+			public const int mpu_camera_preview = 2131558491;
 			
 			// aapt resource value: 0x7f0d0076
-			public const int mpu_summary_receipt_card_view = 2131558518;
+			public const int mpu_clear_button = 2131558518;
 			
-			// aapt resource value: 0x7f0d0083
-			public const int mpu_summary_refund_button = 2131558531;
+			// aapt resource value: 0x7f0d0063
+			public const int mpu_close_button = 2131558499;
 			
-			// aapt resource value: 0x7f0d0084
-			public const int mpu_summary_retry_button = 2131558532;
+			// aapt resource value: 0x7f0d006f
+			public const int mpu_continue_button = 2131558511;
 			
-			// aapt resource value: 0x7f0d007d
-			public const int mpu_summary_scheme_view = 2131558525;
+			// aapt resource value: 0x7f0d006d
+			public const int mpu_email_address_view = 2131558509;
 			
-			// aapt resource value: 0x7f0d0085
-			public const int mpu_summary_send_receipt_button = 2131558533;
+			// aapt resource value: 0x7f0d0066
+			public const int mpu_email_view = 2131558502;
 			
-			// aapt resource value: 0x7f0d007a
-			public const int mpu_summary_status_information_view = 2131558522;
+			// aapt resource value: 0x7f0d0068
+			public const int mpu_forgot_password_button = 2131558504;
 			
-			// aapt resource value: 0x7f0d0078
-			public const int mpu_summary_status_view = 2131558520;
+			// aapt resource value: 0x7f0d005c
+			public const int mpu_fragment_container = 2131558492;
 			
-			// aapt resource value: 0x7f0d0080
-			public const int mpu_summary_subject_view = 2131558528;
+			// aapt resource value: 0x7f0d005d
+			public const int mpu_header_view = 2131558493;
 			
-			// aapt resource value: 0x7f0d007b
-			public const int mpu_summary_tx_history_container = 2131558523;
+			// aapt resource value: 0x7f0d006a
+			public const int mpu_login_progress = 2131558506;
 			
-			// aapt resource value: 0x7f0d008c
-			public const int mpu_summary_tx_history_list_amount_view = 2131558540;
+			// aapt resource value: 0x7f0d0065
+			public const int mpu_logo_image = 2131558501;
 			
-			// aapt resource value: 0x7f0d008b
-			public const int mpu_summary_tx_history_list_partial_cp_view = 2131558539;
+			// aapt resource value: 0x7f0d0067
+			public const int mpu_password_view = 2131558503;
+			
+			// aapt resource value: 0x7f0d006b
+			public const int mpu_progress_view = 2131558507;
+			
+			// aapt resource value: 0x7f0d0062
+			public const int mpu_retry_button = 2131558498;
+			
+			// aapt resource value: 0x7f0d0074
+			public const int mpu_scheme_view = 2131558516;
+			
+			// aapt resource value: 0x7f0d005e
+			public const int mpu_selection_list_view = 2131558494;
+			
+			// aapt resource value: 0x7f0d006e
+			public const int mpu_send_button = 2131558510;
+			
+			// aapt resource value: 0x7f0d0070
+			public const int mpu_signature_view = 2131558512;
+			
+			// aapt resource value: 0x7f0d0072
+			public const int mpu_signature_view_separator = 2131558514;
+			
+			// aapt resource value: 0x7f0d0061
+			public const int mpu_status_container = 2131558497;
+			
+			// aapt resource value: 0x7f0d006c
+			public const int mpu_status_icon_view = 2131558508;
+			
+			// aapt resource value: 0x7f0d0064
+			public const int mpu_status_icon_view_container = 2131558500;
 			
 			// aapt resource value: 0x7f0d0089
-			public const int mpu_summary_tx_history_list_status_view = 2131558537;
+			public const int mpu_status_view = 2131558537;
+			
+			// aapt resource value: 0x7f0d007f
+			public const int mpu_summary_account_number_view = 2131558527;
+			
+			// aapt resource value: 0x7f0d007a
+			public const int mpu_summary_amount_view = 2131558522;
+			
+			// aapt resource value: 0x7f0d0083
+			public const int mpu_summary_capture_button = 2131558531;
+			
+			// aapt resource value: 0x7f0d0088
+			public const int mpu_summary_close_button = 2131558536;
+			
+			// aapt resource value: 0x7f0d0082
+			public const int mpu_summary_datetime_view = 2131558530;
+			
+			// aapt resource value: 0x7f0d007d
+			public const int mpu_summary_divider_header_view = 2131558525;
+			
+			// aapt resource value: 0x7f0d0080
+			public const int mpu_summary_divider_scheme_accno_view = 2131558528;
+			
+			// aapt resource value: 0x7f0d0078
+			public const int mpu_summary_header_container_view = 2131558520;
+			
+			// aapt resource value: 0x7f0d0087
+			public const int mpu_summary_print_receipt_button = 2131558535;
+			
+			// aapt resource value: 0x7f0d0077
+			public const int mpu_summary_receipt_card_view = 2131558519;
+			
+			// aapt resource value: 0x7f0d0084
+			public const int mpu_summary_refund_button = 2131558532;
+			
+			// aapt resource value: 0x7f0d0085
+			public const int mpu_summary_retry_button = 2131558533;
+			
+			// aapt resource value: 0x7f0d007e
+			public const int mpu_summary_scheme_view = 2131558526;
+			
+			// aapt resource value: 0x7f0d0086
+			public const int mpu_summary_send_receipt_button = 2131558534;
+			
+			// aapt resource value: 0x7f0d007b
+			public const int mpu_summary_status_information_view = 2131558523;
+			
+			// aapt resource value: 0x7f0d0079
+			public const int mpu_summary_status_view = 2131558521;
+			
+			// aapt resource value: 0x7f0d0081
+			public const int mpu_summary_subject_view = 2131558529;
+			
+			// aapt resource value: 0x7f0d007c
+			public const int mpu_summary_tx_history_container = 2131558524;
+			
+			// aapt resource value: 0x7f0d008d
+			public const int mpu_summary_tx_history_list_amount_view = 2131558541;
+			
+			// aapt resource value: 0x7f0d008c
+			public const int mpu_summary_tx_history_list_partial_cp_view = 2131558540;
 			
 			// aapt resource value: 0x7f0d008a
-			public const int mpu_summary_tx_history_list_timestamp_view = 2131558538;
+			public const int mpu_summary_tx_history_list_status_view = 2131558538;
 			
-			// aapt resource value: 0x7f0d0059
-			public const int mpu_toolbar = 2131558489;
+			// aapt resource value: 0x7f0d008b
+			public const int mpu_summary_tx_history_list_timestamp_view = 2131558539;
+			
+			// aapt resource value: 0x7f0d005a
+			public const int mpu_toolbar = 2131558490;
 			
 			// aapt resource value: 0x7f0d001e
 			public const int multiply = 2131558430;
@@ -2265,8 +2268,8 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0d0035
 			public const int parentPanel = 2131558453;
 			
-			// aapt resource value: 0x7f0d005f
-			public const int payment_fragment_error = 2131558495;
+			// aapt resource value: 0x7f0d0060
+			public const int payment_fragment_error = 2131558496;
 			
 			// aapt resource value: 0x7f0d0005
 			public const int progress_circular = 2131558405;
@@ -2343,8 +2346,8 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0d0026
 			public const int standard = 2131558438;
 			
-			// aapt resource value: 0x7f0d008f
-			public const int status_bar_latest_event_content = 2131558543;
+			// aapt resource value: 0x7f0d0090
+			public const int status_bar_latest_event_content = 2131558544;
 			
 			// aapt resource value: 0x7f0d0053
 			public const int submit_area = 2131558483;
@@ -2352,20 +2355,20 @@ namespace XamarinMPOSDemo
 			// aapt resource value: 0x7f0d000b
 			public const int tabMode = 2131558411;
 			
-			// aapt resource value: 0x7f0d0097
-			public const int text = 2131558551;
+			// aapt resource value: 0x7f0d0098
+			public const int text = 2131558552;
 			
-			// aapt resource value: 0x7f0d0095
-			public const int text2 = 2131558549;
+			// aapt resource value: 0x7f0d0096
+			public const int text2 = 2131558550;
 			
 			// aapt resource value: 0x7f0d003b
 			public const int textSpacerNoButtons = 2131558459;
 			
-			// aapt resource value: 0x7f0d0058
-			public const int textView1 = 2131558488;
+			// aapt resource value: 0x7f0d0059
+			public const int textView1 = 2131558489;
 			
-			// aapt resource value: 0x7f0d0093
-			public const int time = 2131558547;
+			// aapt resource value: 0x7f0d0094
+			public const int time = 2131558548;
 			
 			// aapt resource value: 0x7f0d0034
 			public const int title = 2131558452;
