@@ -13,6 +13,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/button1" />
+    <Button
+        android:text="SYNCHRONIZE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/synchronize" />
     <TextView
         android:text="Status view..."
         android:layout_width="match_parent"

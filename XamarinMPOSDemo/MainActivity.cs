@@ -10,6 +10,8 @@ using IO.Mpos;
 using IO.Mpos.UI.Shared;
 using IO.Mpos.Accessories.Parameters;
 using IO.Mpos.Transactionprovider.Offline;
+using IO.Mpos.Errors;
+using IO.Mpos.Transactionprovider.Configuration;
 
 namespace XamarinMPOSDemo
 {
@@ -42,9 +44,22 @@ namespace XamarinMPOSDemo
                 SubmitBatch();
             };
 
+            Button syncButton = FindViewById<Button>(Resource.Id.synchronize);
 
-            this.provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "fc78e704-8349-430d-85ce-4c332a2adcd1", "wL5N2bKfNXu110KdIOwxGV0e2d6WZ7UL");
+            syncButton.Click += delegate {
+                Synchronize();
+            };
+
+
+
+
+            this.provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "eaf8722b-51b1-4ead-a11d-ed5340a77de6", "aFzKWfnWXyXqMISXRwNeZMRCfZynDQcC");
 		}
+
+        private void Synchronize()
+        {
+            provider.SynchronizeConfiguration(new MySynchronizeListener(FindViewById<TextView>(Resource.Id.synchronize)));
+        }
 
         private void SubmitBatch()
         {
@@ -129,6 +144,24 @@ namespace XamarinMPOSDemo
                 this.textView.Text = "Completed";
             }
 
+
+        }
+
+
+        private class MySynchronizeListener : Java.Lang.Object, IO.Mpos.Transactionprovider.Configuration.ISynchronizeConfigurationProcessListener
+
+        {
+
+            private TextView textView;
+
+            public MySynchronizeListener(TextView textView) {
+                this.textView = textView;
+            }
+
+            public void OnCompleted(IConfigurationDetails p0, IMposError p1)
+            {
+                this.textView.Text = "completed";
+            }
 
         }
     }
