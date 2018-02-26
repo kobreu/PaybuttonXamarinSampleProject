@@ -53,7 +53,7 @@ namespace XamarinMPOSDemo
 
 
 
-            this.provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "b75c6b40-33d2-402d-af8c-ee1ec00cef0b", "gy7BO1F4YSOtQrTBL3gkDrDcWaAwIgMe");
+            this.provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "eaf8722b-51b1-4ead-a11d-ed5340a77de6", "mRHKvco81KGqgQ6YzW5ewaXZMk1rSbfh");
 		}
 
         private void Synchronize()
@@ -104,8 +104,14 @@ namespace XamarinMPOSDemo
 
             var accessoryParameters = new IO.Mpos.Accessories.Parameters.AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
 
-            //provider.StartTransaction(transactionParameters, accessoryParameters, new Com.Payworks.JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
+            /**
+             * Use the code below for ONLINE transaction
+             */
+            provider.StartTransaction(transactionParameters, accessoryParameters, new Com.Payworks.JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
 
+            /**
+             * Use the code below for OFFLINE transaction
+             */
             provider.OfflineModule.StartTransaction(transactionParameters, accessoryParameters, null, new Com.Payworks.JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
         }
 			
