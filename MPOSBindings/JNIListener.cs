@@ -7,7 +7,7 @@ namespace Com.Payworks
 
     // Metadata.xml XPath class reference: path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']"
     [global::Android.Runtime.Register("com/payworks/xamarin/GenericListener", DoNotGenerateAcw = true)]
-    public partial class JNIListener : global::Java.Lang.Object, global::IO.Mpos.Transactionprovider.ITransactionProcessListener
+    public partial class JNIListener : global::Java.Lang.Object, global::IO.Mpos.Transactionprovider.ITransactionProcessWithRegistrationListener
     {
 
         internal static new IntPtr java_class_handle;
@@ -121,13 +121,13 @@ namespace Com.Payworks
 
         static void n_OnCompleted_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_(IntPtr jnienv, IntPtr native__this, IntPtr native_p0, IntPtr native_p1, IntPtr native_p2)
         {
-            global::Com.Payworks.JNIListener __this = global::Java.Lang.Object.GetObject<Com.Payworks.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+            global::Com.Payworks.JNIListener __this = global::Java.Lang.Object.GetObject<global::Com.Payworks.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcess p0 = (global::IO.Mpos.Transactionprovider.ITransactionProcess)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcess>(native_p0, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactions.ITransaction p1 = (global::IO.Mpos.Transactions.ITransaction)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactions.ITransaction>(native_p1, JniHandleOwnership.DoNotTransfer);
             global::IO.Mpos.Transactionprovider.ITransactionProcessDetails p2 = (global::IO.Mpos.Transactionprovider.ITransactionProcessDetails)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcessDetails>(native_p2, JniHandleOwnership.DoNotTransfer);
             __this.OnCompleted((Java.Lang.Object)p0, (Java.Lang.Object)p1, (Java.Lang.Object)p2);
         }
-
+#pragma warning restore 0169
 
         static IntPtr id_onCompleted_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_;
         // Metadata.xml XPath method reference: path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onCompleted' and count(parameter)=3 and parameter[1][@type='io.mpos.transactionprovider.TransactionProcess'] and parameter[2][@type='io.mpos.transactions.Transaction'] and parameter[3][@type='io.mpos.transactionprovider.TransactionProcessDetails']]"
@@ -156,7 +156,6 @@ namespace Com.Payworks
         public void OnCompleted(global::Java.Lang.Object p0, global::Java.Lang.Object p1, global::Java.Lang.Object p2) {
             this.OnCompleted((IO.Mpos.Transactionprovider.ITransactionProcess) p0, (IO.Mpos.Transactions.ITransaction) p1, (IO.Mpos.Transactionprovider.ITransactionProcessDetails) p2);
         }
-
 
         static Delegate cb_onCustomerSignatureRequired_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_;
 #pragma warning disable 0169
@@ -240,6 +239,47 @@ namespace Com.Payworks
             }
         }
 
+        static Delegate cb_onRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_;
+#pragma warning disable 0169
+        static Delegate GetOnRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Handler()
+        {
+            if (cb_onRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_ == null)
+                cb_onRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_ = JNINativeWrapper.CreateDelegate((Action<IntPtr, IntPtr, IntPtr, IntPtr>)n_OnRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_);
+            return cb_onRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_;
+        }
+
+        static void n_OnRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_(IntPtr jnienv, IntPtr native__this, IntPtr native_p0, IntPtr native_p1)
+        {
+            global::Com.Payworks.JNIListener __this = global::Java.Lang.Object.GetObject<global::Com.Payworks.JNIListener>(jnienv, native__this, JniHandleOwnership.DoNotTransfer);
+            global::IO.Mpos.Transactionprovider.ITransactionProcess p0 = (global::IO.Mpos.Transactionprovider.ITransactionProcess)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactionprovider.ITransactionProcess>(native_p0, JniHandleOwnership.DoNotTransfer);
+            global::IO.Mpos.Transactions.ITransaction p1 = (global::IO.Mpos.Transactions.ITransaction)global::Java.Lang.Object.GetObject<global::IO.Mpos.Transactions.ITransaction>(native_p1, JniHandleOwnership.DoNotTransfer);
+            __this.OnRegistered(p0, p1);
+        }
+#pragma warning restore 0169
+
+        static IntPtr id_onRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_;
+        // Metadata.xml XPath method reference: path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onRegistered' and count(parameter)=2 and parameter[1][@type='io.mpos.transactionprovider.TransactionProcess'] and parameter[2][@type='io.mpos.transactions.Transaction']]"
+        [Register("onRegistered", "(Lio/mpos/transactionprovider/TransactionProcess;Lio/mpos/transactions/Transaction;)V", "GetOnRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Handler")]
+        public virtual unsafe void OnRegistered(global::IO.Mpos.Transactionprovider.ITransactionProcess p0, global::IO.Mpos.Transactions.ITransaction p1)
+        {
+            if (id_onRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_ == IntPtr.Zero)
+                id_onRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_ = JNIEnv.GetMethodID(class_ref, "onRegistered", "(Lio/mpos/transactionprovider/TransactionProcess;Lio/mpos/transactions/Transaction;)V");
+            try
+            {
+                JValue* __args = stackalloc JValue[2];
+                __args[0] = new JValue(p0);
+                __args[1] = new JValue(p1);
+
+                if (((object)this).GetType() == ThresholdType)
+                    JNIEnv.CallVoidMethod(((global::Java.Lang.Object)this).Handle, id_onRegistered_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_, __args);
+                else
+                    JNIEnv.CallNonvirtualVoidMethod(((global::Java.Lang.Object)this).Handle, ThresholdClass, JNIEnv.GetMethodID(ThresholdClass, "onRegistered", "(Lio/mpos/transactionprovider/TransactionProcess;Lio/mpos/transactions/Transaction;)V"), __args);
+            }
+            finally
+            {
+            }
+        }
+
         static Delegate cb_onStatusChanged_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_;
 #pragma warning disable 0169
         static Delegate GetOnStatusChanged_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_Handler()
@@ -263,7 +303,7 @@ namespace Com.Payworks
         // Metadata.xml XPath method reference: path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onStatusChanged' and count(parameter)=3 and parameter[1][@type='io.mpos.transactionprovider.TransactionProcess'] and parameter[2][@type='io.mpos.transactions.Transaction'] and parameter[3][@type='io.mpos.transactionprovider.TransactionProcessDetails']]"
         [Register("onStatusChanged", "(Lio/mpos/transactionprovider/TransactionProcess;Lio/mpos/transactions/Transaction;Lio/mpos/transactionprovider/TransactionProcessDetails;)V", "GetOnStatusChanged_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_Handler")]
         public virtual unsafe void OnStatusChanged(global::Java.Lang.Object p0, global::Java.Lang.Object p1, global::Java.Lang.Object p2)
-        {
+        {   
             if (id_onStatusChanged_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_ == IntPtr.Zero)
                 id_onStatusChanged_Lio_mpos_transactionprovider_TransactionProcess_Lio_mpos_transactions_Transaction_Lio_mpos_transactionprovider_TransactionProcessDetails_ = JNIEnv.GetMethodID(class_ref, "onStatusChanged", "(Lio/mpos/transactionprovider/TransactionProcess;Lio/mpos/transactions/Transaction;Lio/mpos/transactionprovider/TransactionProcessDetails;)V");
             try
