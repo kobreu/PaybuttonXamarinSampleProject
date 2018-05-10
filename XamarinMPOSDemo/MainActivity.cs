@@ -22,6 +22,7 @@ namespace XamarinMPOSDemo
 	public class MainActivity : Activity
 	{
         IO.Mpos.Transactionprovider.ITransactionProvider provider;
+    MposUi ui;
 
 		protected override void OnCreate (Bundle bundle)
 		{
@@ -54,7 +55,9 @@ namespace XamarinMPOSDemo
 
 
             this.provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "eaf8722b-51b1-4ead-a11d-ed5340a77de6", "mRHKvco81KGqgQ6YzW5ewaXZMk1rSbfh");
-		}
+            this.ui = MposUi.Initialize(this, IO.Mpos.Provider.ProviderMode.Test, "6ef3adee-3bce-48b7-b3c1-3185c14d67b6", "E1JewPljP1BjDwCY9yPO3XtNMa3NjHUZ");
+            ui.Configuration.SetSummaryFeatures(Java.Util.EnumSet.Of(IO.Mpos.UI.Shared.Model.MposUiConfiguration.SummaryFeature.SendReceiptViaEmail));
+    }
 
         private void Synchronize()
         {
@@ -93,26 +96,42 @@ namespace XamarinMPOSDemo
 			Intent intent = ui.CreateTransactionIntent(transactionParameters);
 			StartActivityForResult (intent, MposUi.RequestCodePayment);*/
 
-            // Offline Transactions
-
-
             IO.Mpos.Transactions.Parameters.ITransactionParameters transactionParameters = new IO.Mpos.Transactions.Parameters.TransactionParametersBuilder()
                 .Charge(Java.Math.BigDecimal.One, IO.Mpos.Transactions.Currency.Eur)
-                                                         .Subject("Bouquet of Flowers")
-                                                         .CustomIdentifier("yourReferenceForTheTransaction")
-                                                         .Build();
+                                             .Subject("Bouquet of Flowers")
+                                             .CustomIdentifier("yourReferenceForTheTransaction")
+                                             .Build();
 
             var accessoryParameters = new IO.Mpos.Accessories.Parameters.AccessoryParameters.Builder(IO.Mpos.Accessories.AccessoryFamily.MiuraMpi).Bluetooth().Build();
 
             /**
+             *
+             * IMPLEMENTATION WITH UI
+             * 
+             */ 
+            
+
+            ui.Configuration.SetTerminalParameters(accessoryParameters);
+            Intent intent = ui.CreateTransactionIntent(transactionParameters);
+            StartActivityForResult(intent, MposUi.RequestCodePayment);
+
+
+            /**
+             * 
+             * IMPLEMENTATION WITHOUT UI
+             * 
+             */
+
+
+            /**
              * Use the code below for ONLINE transaction
              */
-            provider.StartTransaction(transactionParameters, accessoryParameters, new Com.Payworks.JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
+            //provider.StartTransaction(transactionParameters, accessoryParameters, new Com.Payworks.JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
 
             /**
              * Use the code below for OFFLINE transaction
              */
-            provider.OfflineModule.StartTransaction(transactionParameters, accessoryParameters, null, new Com.Payworks.JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
+            //provider.OfflineModule.StartTransaction(transactionParameters, accessoryParameters, null, new Com.Payworks.JNIListener(new TextFieldListener2(FindViewById<TextView>(Resource.Id.textView1))));
         }
 			
 		protected override void OnActivityResult(int requestCode, Result resultCode, Intent data) {
