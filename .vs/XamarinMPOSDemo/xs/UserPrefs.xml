@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="XamarinMPOSDemo/XamarinMPOSDemo.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MPOSUiBindings/Transforms/EnumFields.xml">
     <Files>
-      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="108" Column="16" />
-      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="90" Column="101" />
-      <File FileName="MPOSUiBindings/packages.config" Line="15" Column="12" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="122" Column="16" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="39" Column="111" />
+      <File FileName="MPOSUiBindings/packages.config" Line="1" Column="1" />
       <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.0-21/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="2028" Column="3" />
       <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IGenericProcessListener.cs" Line="78" Column="1" />
       <File FileName="MiuraBindings/Transforms/Metadata.xml" Line="10" Column="3" />
@@ -15,8 +15,15 @@
       <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IBasicTransactionProcessWithRegistrationListener.cs" Line="108" Column="28" />
       <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Transactionprovider.IBasicTransactionProcessListener.cs" Line="108" Column="28" />
       <File FileName="XamarinMPOSDemo/TextFieldListener2.cs" Line="1" Column="1" />
-      <File FileName="MPOSBindings/JNIListener.cs" Line="313" Column="44" />
+      <File FileName="MPOSBindings/JNIListener.cs" Line="10" Column="82" />
       <File FileName="XamarinMPOSDemo/XamarinMPOSDemo.csproj" Line="1" Column="1" />
+      <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.3.0-19/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="2254" Column="3" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Shared.Processors.Listener.IAccountProcessorPasswordResetRequestListener.cs" Line="125" Column="37" />
+      <File FileName="MPOSBindings/obj/Debug/generated/src/IO.Mpos.Android.Internal.AndroidLocalizationToolbox.cs" Line="9" Column="78" />
+      <File FileName="Source Not Available" />
+      <File FileName="MPOSUiBindings/Transforms/Metadata.xml" Line="1" Column="1" />
+      <File FileName="MPOSUiBindings/Transforms/EnumFields.xml" Line="1" Column="1" />
+      <File FileName="MPOSUiBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -24,6 +31,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.XamarinMPOSDemo AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.Android_Accelerated_x86" />
+  <MonoDevelop.Ide.ItemProperties.XamarinMPOSDemo AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.091b04a4" />
   <MultiItemStartupConfigurations />
 </Properties>

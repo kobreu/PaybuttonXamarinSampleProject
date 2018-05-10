@@ -33,6 +33,12 @@
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProvider']/method[@name='readCard']" />
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProvider']/method[@name='printCustomerReceiptForTransaction']" />
 
+
+     <remove-node path="/api/package[@name='io.mpos.shared.processors.listener']/interface[@name='AccountProcessorPasswordResetRequestListener']" />
+
+     <remove-node path="/api/package[@name='io.mpos.android.internal']/class[@name='AndroidLocalizationToolbox']" />
+
+  
     <!--<remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']" />-->
 
     <!--<attr path="/api/package[@name='io.mpos.transactionprovider']/
