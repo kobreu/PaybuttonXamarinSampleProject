@@ -8,7 +8,6 @@
     <ProjectGuid>{960A52C8-807C-4EAE-A351-54BAE730F45F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>MPOSBindings</RootNamespace>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <AssemblyName>MPOSBindings</AssemblyName>
