@@ -39,7 +39,13 @@ namespace XamarinMPOSDemo
             p0.ContinueWithCustomerIdentityVerified(true);
         }
 
-        public void OnRegistered(ITransactionProcess p0, ITransaction p1)
+    public void OnDccSelectionRequired(ITransactionProcess p0, ITransaction p1, IDccInformation p2)
+    {
+      this.Display("DCC selection");
+      p0.ContinueDccSelectionWithOriginalAmount();
+    }
+
+    public void OnRegistered(ITransactionProcess p0, ITransaction p1)
         {
         }
 

@@ -1,4 +1,4 @@
-<metadata>
+﻿<metadata>
   <!--
   This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
@@ -8,6 +8,8 @@
   -->
   <attr path="/api/package[@name='io.mpos.shared.processors.payworks.services.response.dto']" name="managedName">MyRenamedPackage</attr>
   <remove-node path="/api/package[@name='io.mpos.shared.processors.payworks.services.response.dto']" />
+  <remove-node path="/api/package[@name='io.mpos.shared.processors.payworks.services.response.dto.serialization']" />
+
 
   <attr path="/api/package[@name='io.mpos']/class[@name='Mpos']" name="managedName">MMpos</attr>
 	
@@ -15,7 +17,9 @@
   <remove-node path="/api/package[@name='io.mpos.shared.accessories.modules.listener']" />
   <remove-node path="/api/package[@name='io.mpos.shared.transactions']" />
   <remove-node path="/api/package[@name='io.mpos.accessories.components.interaction']" />
-
+  
+  
+   <remove-node path="/api/package[@name='io.mpos.transactions.parameters']/class[@name='ActivationBuilder']" />
     <remove-node path="/api/package[@name='io.mpos.shared.provider']/class[@name='AbstractProvider']" />
 
 	<remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicProcessListener']" />
@@ -37,8 +41,9 @@
      <remove-node path="/api/package[@name='io.mpos.shared.processors.listener']/interface[@name='AccountProcessorPasswordResetRequestListener']" />
 
      <remove-node path="/api/package[@name='io.mpos.android.internal']/class[@name='AndroidLocalizationToolbox']" />
+     
+     
 
-  
     <!--<remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='GenericProcessListener']" />-->
 
     <!--<attr path="/api/package[@name='io.mpos.transactionprovider']/
@@ -94,7 +99,6 @@
 
 
     <remove-node path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']" />
-
     
    <!-- <remove-node path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onCompleted' and count(parameter)=3 and parameter[1][@type='io.mpos.transactionprovider.TransactionProcess'] and parameter[2][@type='io.mpos.transactions.Transaction'] and parameter[3][@type='io.mpos.transactionprovider.TransactionProcessDetails']]" />
     <remove-node path="/api/package[@name='com.payworks.xamarin']/class[@name='GenericListener']/method[@name='onStatusChanged' and count(parameter)=3 and parameter[1][@type='io.mpos.transactionprovider.TransactionProcess'] and parameter[2][@type='io.mpos.transactions.Transaction'] and parameter[3][@type='io.mpos.transactionprovider.TransactionProcessDetails']]" />-->
