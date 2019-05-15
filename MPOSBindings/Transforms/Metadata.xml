@@ -25,7 +25,7 @@
 	<remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='BasicProcessListener']" />
 
 
-    <remove-node path="/api/package[@name='io.mpos.transactionprovider']/class[@name='TransactionProvider']" />
+   <!-- <remove-node path="/api/package[@name='io.mpos.transactionprovider']/class[@name='TransactionProvider']" />-->
 
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/class[@name='BaseTransactionProcessListener']" />
     <!--<remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='AccessoryConnectListener']" />
@@ -36,7 +36,9 @@
     
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProvider']/method[@name='readCard']" />
     <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProvider']/method[@name='printCustomerReceiptForTransaction']" />
-
+    <remove-node path="/api/package[@name='io.mpos.transactionprovider']/interface[@name='TransactionProvider']/method[@name='printMerchantReceiptForTransaction']" />
+  
+  
 
      <remove-node path="/api/package[@name='io.mpos.shared.processors.listener']/interface[@name='AccountProcessorPasswordResetRequestListener']" />
 

@@ -1,21 +1,22 @@
 ﻿<Properties StartupConfiguration="{B1E98F57-29A6-4876-94ED-8634CC6A0BDA}|Default">
   <MonoDevelop.Ide.ItemProperties.XamarinMPOSDemo AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.90d9e587" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/9.3.0-19/lib/xamarin.android/xbuild/Xamarin/Android/Xamarin.Android.Common.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../Build Output 11:23 am 2019-05-15.binlog">
     <Files>
-      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="24" Column="37" />
-      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="83" Column="1" />
+      <File FileName="XamarinMPOSDemo/MainActivity.cs" Line="24" Column="5" />
+      <File FileName="MPOSBindings/Transforms/Metadata.xml" Line="39" Column="140" />
       <File FileName="MPOSUiBindings/packages.config" />
       <File FileName="../../../../Library/Frameworks/Xamarin.Android.framework/Versions/8.0.0-21/lib/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" />
       <File FileName="MiuraBindings/Transforms/Metadata.xml" Line="14" Column="3" />
-      <File FileName="MPOSBindings/Transforms/EnumMethods.xml" />
+      <File FileName="MPOSBindings/Transforms/EnumMethods.xml" Line="1" Column="1" />
       <File FileName="MPOSBindings/Transforms/EnumFields.xml" />
-      <File FileName="XamarinMPOSDemo/TextFieldListener2.cs" Line="45" Column="51" />
+      <File FileName="XamarinMPOSDemo/TextFieldListener2.cs" Line="60" Column="6" />
       <File FileName="MPOSBindings/JNIListener.cs" Line="14" Column="103" />
       <File FileName="XamarinMPOSDemo/XamarinMPOSDemo.csproj" />
       <File FileName="MPOSUiBindings/Transforms/Metadata.xml" Line="19" Column="126" />
       <File FileName="MPOSUiBindings/Transforms/EnumFields.xml" />
       <File FileName="MPOSUiBindings/Transforms/EnumMethods.xml" />
       <File FileName="../../../../Library/Frameworks/Mono.framework/External/xbuild/Xamarin/Android/Xamarin.Android.Common.targets" Line="2192" Column="5" />
+      <File FileName="../../../../Build Output 11:23 am 2019-05-15.binlog" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,7 +25,7 @@
             <Node name="BluetoothBindings" expanded="True">
               <Node name="Jars" expanded="True" />
             </Node>
-            <Node name="CoreBindings" expanded="True">
+            <Node name="CoreBindings" expanded="True" selected="True">
               <Node name="Jars" expanded="True" />
               <Node name="Transforms" expanded="True" />
             </Node>
@@ -36,7 +37,8 @@
               <Node name="Jars" expanded="True" />
               <Node name="Transforms" expanded="True" />
             </Node>
-            <Node name="XamarinMPOSDemo" expanded="True" selected="True">
+            <Node name="XamarinMPOSDemo" expanded="True">
+              <Node name="References" expanded="True" />
               <Node name="Packages" expanded="True" />
             </Node>
           </Node>

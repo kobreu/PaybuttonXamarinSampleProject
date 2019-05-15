@@ -54,14 +54,14 @@ namespace XamarinMPOSDemo
 
 
 
-            this.provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "eaf8722b-51b1-4ead-a11d-ed5340a77de6", "mRHKvco81KGqgQ6YzW5ewaXZMk1rSbfh");
+            //this.provider = IO.Mpos.MMpos.CreateTransactionProvider(this, IO.Mpos.Provider.ProviderMode.Test, "eaf8722b-51b1-4ead-a11d-ed5340a77de6", "mRHKvco81KGqgQ6YzW5ewaXZMk1rSbfh");
             this.ui = MposUi.Initialize(this, IO.Mpos.Provider.ProviderMode.Test, "6ef3adee-3bce-48b7-b3c1-3185c14d67b6", "E1JewPljP1BjDwCY9yPO3XtNMa3NjHUZ");
             ui.Configuration.SetSummaryFeatures(Java.Util.EnumSet.Of(IO.Mpos.UI.Shared.Model.MposUiConfiguration.SummaryFeature.SendReceiptViaEmail));
     }
 
         private void Synchronize()
         {
-            provider.SynchronizeConfiguration(new MySynchronizeListener(FindViewById<TextView>(Resource.Id.synchronize)));
+           provider.SynchronizeConfiguration(new MySynchronizeListener(FindViewById<TextView>(Resource.Id.synchronize)));
         }
 
         private void SubmitBatch()
@@ -175,7 +175,7 @@ namespace XamarinMPOSDemo
         }
 
 
-        private class MySynchronizeListener : Java.Lang.Object, IO.Mpos.Transactionprovider.Configuration.ISynchronizeConfigurationProcessListener
+       private class MySynchronizeListener : Java.Lang.Object, IO.Mpos.Transactionprovider.Configuration.ISynchronizeConfigurationProcessListener
 
         {
 
